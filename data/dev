@@ -1,0 +1,968 @@
+find_taxi:O I:O need:O a:O taxi:O to:O come:O to:O backstreet:B-taxi-destination bistro:I-taxi-destination by:O 19:30:B-taxi-arriveby .:O
+find_taxi:O I'm:O coming:O from:O sesame:B-taxi-departure restaurant:I-taxi-departure and:I-taxi-departure bar:I-taxi-departure .:O
+NONE:O Nope:O ,:O that:O is:O everything:O !:O Thanks:O !:O
+find_train:O I'd:O like:O to:O find:O a:O train:O from:O Leiceter:O on:O Saturday:B-train-day .:O
+find_train:O I:O am:O going:O to:O cambridge:B-train-destination and:O need:O to:O leave:O after:O 12:00:B-train-leaveat
+find_train:O I:O don't:O need:O to:O book:O just:O yet:O .:O But:O can:O I:O get:O the:O arrival:O time:O and:O price:O per:O ticket:O .:O
+NONE:O Okay:O great:O .:O That:O is:O all:O I:O needed:O to:O know:O .:O
+find_taxi:O I'd:O like:O to:O be:O picked:O up:O today:O from:O alexander:B-taxi-departure bed:I-taxi-departure and:I-taxi-departure breakfast:I-taxi-departure
+find_taxi:O I:O would:O like:O for:O the:O taxi:O to:O be:O here:O at:O eleven:O o'clock:O a.m:O .:O so:O that:O I:O can:O arrive:O at:O my:O destination:O at:B-taxi-arriveby noon:I-taxi-arriveby .:O
+find_taxi:O I:O am:O going:O to:O rice:B-taxi-destination house:I-taxi-destination
+NONE:O Thank:O you:O ,:O that:O is:O all:O .:O
+find_restaurant:O I:O am:O looking:O for:O a:O particular:O restaurant:O called:O city:B-restaurant-name stop:I-restaurant-name restaurant:I-restaurant-name .:O
+book_restaurant:O Yes:O ,:O I:O would:O .:O Please:O reserve:O a:O table:O for:O 4:B-restaurant-bookpeople at:O 17:30:B-restaurant-booktime on:O Thursday:B-restaurant-bookday .:O I:O would:O like:O the:O reference:O number:O as:O well:O ,:O please:O .:O
+NONE:O Thanks:O ,:O that's:O all:O I:O need:O .:O Have:O a:O nice:O day:O .:O
+find_train:O Is:O there:O a:O train:O schedule:O for:O sunday:B-train-day ?:O
+find_train:O Yes:O ,:O departing:O from:O Cambride:O going:O to:O London:B-train-destination Kings:I-train-destination cross:I-train-destination .:O
+find_train:O I:O don't:O have:O a:O preference:O for:O leave:O time:O .:O I:O need:O to:O arrive:O in:O London:B-train-destination Kings:I-train-destination Cross:I-train-destination by:O 14:00:B-train-arriveby .:O
+book_train:O Well:O ,:O that:O is:O pretty:O early:O ,:O but:O I:O think:O it:O will:O work:O .:O Thank:O you:O so:O much:O !:O
+NONE:O Great:O ,:O thanks:O for:O your:O help:O .:O
+NONE:O No:O that:O was:O all:O .:O Thanks:O
+find_restaurant:O Could:O you:O tell:O me:O where:O Cotto:B-restaurant-name is:O located:O ?:O
+find_restaurant:O Great:O !:O Do:O you:O know:O what:O price:O range:O they:O are:O in:O ?:O
+NONE:O Thanks:O ,:O good:O bye:O .:O
+find_hotel:O I:O need:O some:O information:O on:O the:O A:B-hotel-name and:I-hotel-name B:I-hotel-name Guest:I-hotel-name House:I-hotel-name .:O
+book_hotel:O Thank:O you:O ,:O I:O need:O to:O book:O for:O 7:B-hotel-bookpeople people:O and:O 3:B-hotel-bookstay nights:O starting:O on:O thursday:B-hotel-bookday .:O Can:O they:O set:O that:O up:O for:O me:O .:O
+book_hotel:O So:O you:O need:O to:O arrive:O on:O Thursday:B-hotel-bookday after:O 11:00:O am:O to:O check-in:O .:O
+NONE:O That's:O it:O for:O now:O !:O Thank:O you:O so:O much:O .:O
+find_hotel:O Hi:O .:O Is:O there:O a:O hotel:O named:O Home:B-hotel-name from:I-hotel-name Home:I-hotel-name ?:O I:O think:O I:O have:O heard:O of:O that:O .:O
+book_hotel:O All:O right:O ,:O could:O you:O book:O a:O room:O for:O me:O ?:O There:O will:O be:O 8:B-hotel-bookpeople people:O for:O 4:B-hotel-stars nights:O ,:O arriving:O Monday:B-hotel-bookday .:O
+book_hotel:O Sure:O .:O I:O could:O stay:O for:O 1:B-hotel-bookstay night:O .:O
+NONE:O No:O ,:O that's:O all:O I:O need:O .:O Thanks:O for:O your:O help:O !:O
+find_taxi:O I:O would:O like:O to:O book:O a:O taxi:O for:O after:O 01:15:B-taxi-leaveat pm:O and:O i:O will:O be:O going:O to:O milton:B-taxi-destination country:I-taxi-destination park:I-taxi-destination .:O
+find_taxi:O I'm:O leaving:O from:O milton:O county:O park:O .:O
+find_taxi:O I:O am:O leaving:O from:O milton:B-taxi-departure country:I-taxi-departure park:I-taxi-departure and:O I:O will:O be:O going:O to:O gonville:B-taxi-destination hotel:I-taxi-destination .:O
+find_taxi:O I:O need:O the:O car:O type:O and:O contact:O number:O .:O
+find_taxi:O Thanks:O for:O the:O help:O .:O I:O will:O be:O looking:O for:O that:O car:O .:O Goodbye:O .:O
+find_restaurant:O Can:O you:O help:O me:O find:O a:O good:O thai:B-restaurant-food restaurant:O in:O the:O west:B-restaurant-area ?:O
+find_restaurant:O Yes:O ,:O that:O would:O be:O great:O .:O
+book_restaurant:O Thursday:B-restaurant-bookday at:O 12:45:B-restaurant-booktime for:O 7:B-restaurant-bookpeople people:O .:O
+NONE:O thank:O you:O for:O your:O service:O
+NONE:O No:O ,:O the:O reservation:O is:O all:O .:O Goodbye:O .:O
+find_hotel:O Can:O you:O find:O me:O a:O guesthouse:B-hotel-type with:O free:O parking:O ?:O
+find_hotel:O No:O ,:O but:O I'm:O looking:O for:O something:O with:O at:O least:O two:O stars:O .:O
+find_hotel:O Do:O you:O have:O a:O hotel:O that:O is:O four:O stars:O then:O ?:O
+find_hotel:O The:O location:O doesn't:O matter:O ,:O but:O I:O would:O prefer:O a:O guesthouse:B-hotel-type if:O possible:O .:O
+book_hotel:O Yes:B-hotel-parking please:O .:O There:O are:O 8:B-hotel-bookpeople of:O us:O and:O we'll:O be:O arriving:O on:O Saturday:B-hotel-bookday .:O
+book_hotel:O I'll:O be:O staying:O for:O 5:B-hotel-bookstay nights:O .:O
+NONE:O I'm:O happy:O and:O relieved:O .:O That's:O everything:O .:O Thank:O you:O so:O much:O for:O your:O help:O .:O
+find_train:O I:O need:O a:O train:O going:O to:O Cambridge:B-train-destination .:O
+find_train:O The:O train:O should:O depart:O from:O kings:B-train-departure lynn:I-train-departure and:O should:O leave:O on:O thursday:B-train-day .:O
+find_train:O I:O wish:O to:O leave:O after:O 8:15:B-train-leaveat .:O
+find_train:O can:O i:O get:O the:O price:O and:O time:O travel:O please:O
+find_train:O Would:O you:O be:O able:O to:O send:O that:O in:O a:O different:O format:O ?:O I:O just:O need:O a:O price:O and:O travel:O time:O ,:O that:O list:O is:O confusing:O .:O
+NONE:O No:O ,:O that:O is:O all:O .:O Good:O bye:O .:O
+find_restaurant:O Hi:O ,:O I'm:O looking:O for:O an:O expensive:B-restaurant-pricerange restaurant:O .:O
+find_restaurant:O I'd:O like:O something:O in:O the:O centre:B-restaurant-area if:O possible:O .:O
+find_restaurant:O That:O sounds:O nice:O !:O Can:O I:O just:O get:O their:O phone:O number:O ,:O address:O ,:O and:O postcode:O ?:O
+NONE:O No:O ,:O that's:O everything:O .:O Thanks:O for:O the:O help:O !:O
+find_train:O I'm:O in:O need:O of:O a:O train:O that:O leaves:O from:O Peterborough:B-train-departure and:O arrives:O by:O 18:30:B-train-arriveby .:O
+find_train:O I:O would:O like:O to:O travel:O on:O Monday:B-train-day and:O my:O destination:O is:O Cambridge:B-train-destination .:O
+book_train:O Okay:O ,:O can:O you:O book:O that:O for:O me:O ?:O I'm:O traveling:O alone:O .:O
+NONE:O Thanks:O ,:O that's:O all:O I:O need:O .:O Have:O a:O nice:O day:O .:O
+find_taxi:O Hey:O ,:O I'm:O trying:O to:O book:O a:O taxi:O today:O
+find_taxi:O I:O am:O departing:O from:O Cambridge:B-taxi-departure University:I-taxi-departure Botanic:I-taxi-departure Gardens:I-taxi-departure and:O need:O to:O arrive:O at:O Pizza:B-taxi-destination Hut:I-taxi-destination Cherry:I-taxi-destination Hinton:O .:O
+find_taxi:O I:O would:O like:O to:O leave:O after:O 9:45:B-taxi-leaveat .:O Please:O let:O me:O know:O the:O car:O type:O and:O contact:O number:O .:O
+NONE:O Thanks:O .:O That's:O all:O I:O needed:O to:O know:O .:O
+find_restaurant:O Hi:O there:O .:O I'm:O trying:O to:O impress:O my:O girlfriend:O and:O was:O wondering:O if:O there:O might:O be:O a:O really:O nice:O british:B-restaurant-food restaurant:O in:O town:O ?:O
+find_restaurant:O Not:O really:O ,:O if:O you:O find:O a:O suitable:O one:O ,:O please:O give:O me:O the:O postcode:O .:O
+NONE:O Thanks:O !:O That's:O all:O I:O need:O today:O .:O I:O appreciate:O your:O help:O .:O
+find_restaurant:O Indeed:O they:O have:O .:O
+find_train:O I:O am:O looking:O for:O a:O train:O .:O The:O train:O should:O leave:O on:O monday:B-train-day and:O should:O leave:O after:O 16:45:B-train-leaveat
+find_train:O The:O train:O should:O leave:O on:O monday:B-train-day and:O should:O leave:O after:O 16:45:B-train-leaveat ,:O departing:O from:O stevenage:B-train-departure and:O should:O go:O to:O cambridge:B-train-destination .:O
+book_train:O Can:O you:O book:O passage:O for:O 7:B-train-bookpeople people:O ,:O please:O ?:O
+NONE:O Thank:O you:O for:O your:O help:O .:O
+NONE:O Have:O a:O wonderful:O day:O !:O
+NONE:O No:O that:O was:O all:O .:O Goodbye:O .:O
+find_hotel:O Hello:O ,:O I:O am:O trying:O to:O find:O a:O place:O to:O stay:O that:O has:O free:O wifi:O and:O 3:B-hotel-stars stars:O .:O Do:O you:O have:O anything:O like:O that:O ?:O
+find_hotel:O Are:O any:O of:O them:O a:O hotel:O ?:O I:O don't:O want:O a:O guesthouse:O .:O
+book_hotel:O No:O preference:O ,:O I:O need:O it:O for:O 2:B-hotel-bookstay nights:O starting:O from:O Monday:B-hotel-bookday for:O 3:B-hotel-stars people:O ,:O and:O I:O need:O a:O reference:O number:O please:O .:O
+book_hotel:O That:O is:O great:O ,:O I'm:O so:O excited:O .:O Thanks:O for:O you:O help:O .:O Bye:O .:O
+find_hotel:O Hi:O ,:O I:O am:O looking:O for:O a:O cheap:B-hotel-pricerange place:O to:O stay:O in:O the:O east:B-hotel-area .:O Can:O you:O help:O me:O ?:O
+find_hotel:O Do:O any:O of:O those:O include:O free:O parking:O ?:O
+book_hotel:O I:O would:O need:O a:O hotel:O for:O 6:B-hotel-bookpeople people:O ,:O starting:O from:O Thursday:B-hotel-bookday and:O lasting:O 4:B-hotel-bookstay nights:O .:O Is:O there:O anything:O available:O ?:O
+book_hotel:O Great:O ,:O that's:O all:O I:O need:O today:O .:O Thank:O you:O !:O
+find_attraction:O I'm:O looking:O for:O some:O entertainment:B-attraction-type in:O the:O center:O of:O town:O .:O
+find_attraction:O How:O about:O a:O theatre:B-attraction-type ?:O
+find_attraction:O That:O sounds:O good:O ,:O what's:O the:O phone:O number:O ?:O
+NONE:O Thank:O you:O ,:O that's:O all:O I:O need:O right:O now:O .:O Bye:O .:O
+find_taxi:O I'd:O like:O to:O book:O a:O taxi:O to:O depart:O from:O Maharajah:B-taxi-departure Tandoori:I-taxi-departure Restaurant:I-taxi-departure .:O
+find_taxi:O I:O would:O like:O the:O taxi:O to:O be:O here:O by:O 02:00:B-taxi-leaveat .:O
+find_taxi:O Please:O take:O me:O to:O sidney:B-taxi-destination sussex:I-taxi-destination college:I-taxi-destination .:O
+NONE:O no:O that:O is:O all:O i:O wanted:O from:O you:O today:O thank:O you:O
+NONE:O Thank:O you:O for:O your:O help:O ,:O you:O do:O the:O same:O .:O
+find_restaurant:O I:O am:O looking:O for:O a:O particular:O restaurant:O .:O It's:O Efes:B-restaurant-name Restaurant:I-restaurant-name .:O
+book_restaurant:O Yes:O I:O would:O ,:O for:O 3:B-restaurant-bookpeople people:O Wednesday:B-restaurant-bookday at:O 18:15:B-restaurant-booktime .:O
+book_restaurant:O Can:O you:O check:O for:O 17:15:B-restaurant-booktime on:O the:O same:O day:O ?:O
+NONE:O No:O ,:O that's:O all:O I:O need:O today:O .:O I:O appreciate:O your:O help:O -:O goodbye:O !:O
+find_hotel:O I'm:O looking:O for:O a:O place:O to:O stay:O .:O I:O would:O like:O for:O it:O to:O be:O a:O 4:B-hotel-stars star:O guesthouse:B-hotel-type .:O
+find_hotel:O No:O ,:O just:O moderate:B-hotel-pricerange price:O range:O .:O
+find_hotel:O No:O ,:O that:O doesn't:O matter:O .:O
+book_hotel:O Let's:O go:O ahead:O and:O make:O a:O reservation:O .:O I'll:O be:O arriving:O Tuesday:B-hotel-bookday and:O would:O like:O to:O stay:O 5:B-hotel-bookstay nights:O .:O There:O will:O be:O 7:B-hotel-bookpeople people:O in:O my:O group:O .:O
+NONE:O Thank:O you:O for:O the:O help:O .:O Have:O a:O nice:O day:O .:O
+find_hotel:O Aloha:O !:O Can:O you:O help:O me:O find:O a:O hotel:O ,:O please:O ?:O
+find_hotel:O I'm:O not:O sure:O but:O I'm:O looking:O for:O something:O in:O the:O cheap:B-hotel-pricerange price:O rating:O with:O 4:B-hotel-stars stars:O .:O
+find_hotel:O I:O need:O free:O parking:O .:O
+book_hotel:O I:O would:O like:O you:O to:O book:O me:O into:O the:O hotel:O for:O tuesday:B-hotel-bookday for:O 5:B-hotel-bookstay nights:O and:O 2:B-hotel-bookpeople people:O .:O
+book_hotel:O Not:O that:O is:O it:O thank:O you:O .:O
+find_restaurant:O I:O would:O like:O to:O find:O a:O restaurant:O in:O the:O centre:B-restaurant-area .:O
+find_restaurant:O I:O need:O it:O to:O be:O in:O the:O expensive:B-restaurant-pricerange price:O range:O .:O What:O are:O my:O options:O ?:O
+find_restaurant:O Lets:O go:O with:O the:O Turkish:B-restaurant-food one:O .:O Can:O I:O get:O the:O address:O and:O postcode:O please:O ?:O
+find_restaurant:O Thanks:O for:O the:O information:O .:O Goodbye:O .:O
+find_restaurant:O Hi:O ,:O I'd:O like:O to:O find:O a:O moderately:O priced:O steakhouse:B-restaurant-food .:O
+find_restaurant:O How:O about:O in:O the:O centre:B-restaurant-area ?:O
+find_restaurant:O How:O about:O Spanish:B-restaurant-food food:O then:O ?:O
+find_restaurant:O No:O thank:O you:O .:O Can:O I:O have:O the:O phone:O number:O for:O it:O though:O ?:O
+NONE:O That's:O all:O the:O information:O I:O needed:O today:O ,:O thank:O you:O .:O
+find_hotel:O I'm:O coming:O to:O town:O for:O an:O overdue:O visit:O with:O my:O relatives:O .:O Can:O you:O help:O me:O find:O a:O place:O to:O stay:O ?:O
+find_hotel:O I:O prefer:O a:O guesthouse:B-hotel-type with:O free:O WiFi:O .:O
+find_hotel:O I:O really:O want:O to:O stay:O in:O the:O east:B-hotel-area and:O be:O 4-star:O rated:O .:O Does:O the:O Acorn:O fit:O that:O ?:O
+book_hotel:O The:O price:O range:O doesn't:O matter:O .:O I:O need:O to:O book:O a:O room:O for:O Monday:B-hotel-bookday .:O
+book_hotel:O 2:B-hotel-bookpeople people:O ,:O for:O 4:B-hotel-stars nights:O .:O
+book_hotel:O Yes:B-hotel-internet ,:O thank:O you:O !:O What:O is:O the:O reference:O number:O ?:O
+NONE:O Thanks:O so:O much:O .:O I:O am:O all:O set:O .:O Bye:O .:O
+find_taxi:O I:O need:O a:O taxi:O to:O come:O after:O 19:30:B-taxi-leaveat .:O
+find_taxi:O I:O am:O in:O wandlebury:B-taxi-departure country:I-taxi-departure park:I-taxi-departure .:O
+find_taxi:O I'll:O be:O going:O to:O meze:B-taxi-destination bar:I-taxi-destination restaurant:O .:O
+find_taxi:O Great:O .:O Can:O I:O get:O a:O contact:O number:O ?:O
+NONE:O No:O ,:O thank:O you:O for:O your:O help:O .:O
+find_taxi:O I'd:O like:O help:O with:O a:O taxi:O ,:O please:O .:O I:O need:O to:O be:O picked:O up:O at:O museum:B-taxi-departure of:I-taxi-departure classical:I-taxi-departure archaeology:I-taxi-departure and:O should:O arrive:O by:O 9:00:B-taxi-arriveby .:O Can:O you:O help:O ?:O
+find_taxi:O My:O destination:O will:O be:O ugly:B-taxi-destination duckling:I-taxi-destination
+find_taxi:O Thank:O you:O .:O What:O is:O the:O contact:O number:O ?:O
+NONE:O That:O is:O all:O ,:O thanks:O .:O
+find_restaurant:O I'm:O looking:O for:O a:O cheap:B-restaurant-pricerange place:O to:O dine:O .:O I:O want:O it:O to:O be:O on:O the:O west:B-restaurant-area side:O of:O town:O .:O
+find_restaurant:O Shucks:O .:O No:O Polish:B-restaurant-food ?:O
+find_restaurant:O I:O suppose:O Italian:B-restaurant-food might:O suffice:O .:O Do:O you:O have:O any:O listings:O for:O cheap:B-restaurant-pricerange Italian:B-restaurant-food restaurants:O on:O the:O west:B-restaurant-area side:O ?:O
+find_restaurant:O no:O ,:O but:O could:O you:O please:O give:O me:O the:O address:O and:O the:O phone:O number:O ?:O
+NONE:O No:O ,:O that's:O all:O I:O need:O .:O Thank:O you:O for:O your:O help:O !:O
+find_taxi:O I:O am:O wanting:O to:O book:O a:O taxi:O .:O I:O am:O going:O to:O Sitar:B-taxi-destination Tandoori:I-taxi-destination and:O want:O to:O leave:O after:O 19:30:B-taxi-leaveat .:O
+find_taxi:O i'm:O going:O to:O sitar:B-taxi-destination tandoori:I-taxi-destination .:O
+find_taxi:O I:O am:O departing:O from:O la:B-taxi-departure tasca:I-taxi-departure .:O
+NONE:O Thanks:O so:O much:O for:O your:O help:O
+find_taxi:O I:O need:O to:O book:O a:O taxi:O departing:O from:O royal:B-taxi-departure standard:I-taxi-departure .:O
+find_taxi:O I'm:O heading:O to:O the:O university:B-taxi-destination arms:I-taxi-destination hotel:I-taxi-destination .:O
+find_taxi:O Yes:O .:O I:O must:O arrive:O there:O by:O 15:45:B-taxi-arriveby
+NONE:O Sounds:O good:O ,:O thanks:O for:O the:O help:O !:O
+NONE:O That:O was:O everything:O ,:O thanks:O !:O
+find_restaurant:O hello:O can:O i:O find:O a:O place:O that:O serves:O chinese:B-restaurant-food food:O and:O has:O expensive:B-restaurant-pricerange price:O range:O for:O my:O family:O
+book_restaurant:O i:O want:O a:O restuarant:O that:O i:O can:O book:O a:O table:O for:O four:O people:O on:O monday:B-restaurant-bookday 1300hrs:B-restaurant-booktime
+book_restaurant:O Yes:O ,:O please:O .:O for:O 4:B-restaurant-bookpeople people:O at:O 13:00:B-restaurant-booktime on:O monday:B-restaurant-bookday .:O
+book_restaurant:O How:O about:O Tuesday:B-restaurant-bookday ,:O same:O time:O .:O
+NONE:O No:O ,:O that's:O all:O I:O need:O .:O Thank:O you:O !:O
+find_restaurant:O I:O am:O looking:O for:O a:O place:O to:O dine:O .:O The:O restaurant:O should:O serve:O mediterranean:B-restaurant-food food:O and:O should:O be:O in:O the:O south:B-restaurant-area
+find_restaurant:O What:O restaurants:O are:O cheap:B-restaurant-pricerange ?:O
+find_restaurant:O how:O about:O one:O that:O serves:O portuguese:B-restaurant-food food:O ?:O
+book_restaurant:O Yes:O ,:O please:O .:O 3:B-restaurant-bookpeople people:O at:O 12:15:B-restaurant-booktime on:O Friday:B-restaurant-bookday .:O
+book_restaurant:O how:O about:O for:O 11:15:B-restaurant-booktime ?:O
+NONE:O That:O is:O all:O I:O need:O ,:O thank:O you:O .:O
+find_attraction:O I:O want:O to:O find:O a:O museum:B-attraction-type in:O the:O centre:B-attraction-area of:O town:O please:O .:O
+find_attraction:O Yes:O ,:O please:O .:O May:O have:O I:O have:O phone:O number:O and:O postcode:O ?:O
+NONE:O Nope:O ,:O that's:O it:O .:O Thank:O you:O !:O
+find_hotel:O Hi:O I:O am:O looking:O for:O a:O 4:B-hotel-stars star:O guesthouse:B-hotel-type .:O Can:O you:O help:O me:O ?:O
+find_hotel:O I:O don't:O really:O care:O about:O the:O area:O ,:O but:O I:O would:O like:O it:O to:O have:O free:O parking:O .:O
+book_hotel:O Sounds:O good:O ,:O I:O need:O rooms:O for:O 7:B-hotel-bookpeople people:O for:O 4:B-hotel-stars nights:O starting:O Tuesday:B-hotel-bookday .:O
+NONE:O No:O thank:O you:O ,:O that:O is:O everything:O .:O
+find_train:O I'm:O .:O looking:O for:O a:O train:O departing:O from:O stevenage:B-train-departure .:O
+find_train:O I:O need:O to:O go:O to:O Cambridge:B-train-destination on:O Friday:B-train-day .:O
+find_train:O I:O want:O to:O leave:O sometime:O after:O 13:30:B-train-leaveat .:O
+book_train:O Yes:O ,:O please:O ,:O for:O 3:B-train-bookpeople people:O .:O
+NONE:O Thanks:O !:O Have:O a:O good:O day:O .:O
+find_hotel:O I:O am:O looking:O for:O a:O 3:B-hotel-stars star:O hotel:O on:O the:O south:B-hotel-area side:O of:O town:O please:O .:O
+find_hotel:O Is:O it:O in:O the:O cheap:B-hotel-pricerange price:O range:O ?:O
+find_hotel:O Is:O that:O in:O the:O cheap:B-hotel-pricerange price:O range:O ?:O
+find_hotel:O Sure:O ,:O how:O about:O one:O in:O the:O expensive:B-hotel-pricerange range:O ?:O
+find_hotel:O Can:O you:O tell:O me:O what:O type:O of:O accommodation:O this:O is:O ?:O
+book_hotel:O Yes:B-hotel-parking please:O .:O I:O need:O to:O book:O a:O room:O for:O three:O days:O starting:O on:O tuesday:B-hotel-bookday .:O
+book_hotel:O Make:O a:O reservation:O for:O one:O .:O
+NONE:O Actually:O nevermind:O ,:O I:O don't:O need:O to:O make:O a:O reservation:O right:O now:O .:O Thanks:O anyway:O .:O
+NONE:O No:O ,:O that's:O all:O I:O need:O .:O Thank:O you:O !:O
+find_train:O I:O need:O a:O train:O to:O Cambridge:B-train-destination on:O Saturday:B-train-day .:O I'll:O be:O departing:O from:O Peterborough:B-train-departure .:O
+find_train:O We'd:O like:O to:O arrive:O by:O 12:45:B-train-arriveby .:O
+find_train:O What's:O the:O latest:O train:O I:O can:O take:O that:O will:O still:O get:O me:O there:O by:O 12:45:B-train-arriveby ?:O
+book_train:O Yes:O ,:O for:O 7:B-train-bookpeople people:O .:O Please:O give:O me:O reference:O number:O .:O
+NONE:O Great:O !:O Thanks:O !:O That's:O all:O I:O needed:O !:O
+find_hotel:O I:O am:O looking:O for:O a:O place:O to:O stay:O .:O The:O hotel:B-hotel-type should:O include:O free:O wifi:O and:O should:O be:O in:O the:O cheap:B-hotel-pricerange price:O range:O
+find_hotel:O No:O ,:O just:O need:O to:O make:O sure:O it:O includes:O free:O parking:O .:O
+book_hotel:O Okay:O ,:O I:O need:O to:O book:O it:O for:O 1:B-hotel-bookpeople person:O ,:O 2:B-hotel-bookstay nights:O starting:O Friday:B-hotel-bookday .:O
+book_hotel:O how:O about:O for:O 1:B-hotel-bookstay night:O ?:O
+NONE:O Thanks:O for:O your:O help:O have:O a:O great:O day:O .:O
+find_hotel:O I:O need:O to:O find:O a:O guesthouse:B-hotel-type with:O a:O 0:B-hotel-stars star:O rating:O .:O
+find_hotel:O Do:O they:O have:O free:O parking:O and:O wifi:O ?:O
+find_hotel:O That's:O awesome:O .:O Can:O you:O book:O one:O of:O them:O for:O me:O ?:O
+book_hotel:O On:O Friday:B-hotel-bookday ,:O and:O I'd:O like:O to:O stay:O 5:B-hotel-bookstay nights:O .:O This:O will:O be:O for:O 6:B-hotel-bookpeople people:O .:O
+NONE:O Excellent:O .:O Thank:O you:O for:O the:O help:O !:O
+find_restaurant:O I:O need:O a:O cheap:B-restaurant-pricerange restaurant:O please:O .:O
+find_restaurant:O Yes:O ,:O portuguese:B-restaurant-food food:O would:O be:O nice:O .:O
+book_restaurant:O Yes:O I:O would:O like:O to:O book:O Nandos:B-restaurant-name in:O the:O south:B-restaurant-area for:O 1:B-restaurant-bookpeople person:O at:O 15:30:B-restaurant-booktime on:O Monday:B-restaurant-bookday .:O
+book_restaurant:O Can:O you:O see:O if:O they:O have:O an:O opening:O at:O 14:30:B-restaurant-booktime instead:O ?:O
+NONE:O No:O ,:O that:O will:O be:O all:O .:O Thank:O you:O .:O
+find_taxi:O Hi:O !:O I'd:O like:O to:O book:O a:O taxi:O to:O Travellers:B-taxi-destination Rest:I-taxi-destination ,:O please:O ,:O and:O I:O need:O to:O get:O there:O absolutely:O no:O later:O than:O 11:45:B-taxi-arriveby from:O cambridge:B-taxi-departure train:I-taxi-departure station:I-taxi-departure .:O
+find_taxi:O I:O need:O to:O go:O to:O travellers:B-taxi-destination rest:I-taxi-destination .:O Is:O that:O OK:O ?:O
+NONE:O No:O that:O is:O all:O ,:O thank:O you:O .:O
+find_taxi:O Hello:O .:O Can:O you:O find:O a:O taxi:O to:O pick:O me:O up:O at:O Darry's:B-taxi-departure Cookhouse:I-taxi-departure and:I-taxi-departure Wine:I-taxi-departure Shop:I-taxi-departure sometime:O after:O 04:00:B-taxi-leaveat ?:O
+find_taxi:O i:O would:O like:O to:O go:O to:O alexander:B-taxi-destination bed:I-taxi-destination and:I-taxi-destination breakfast:I-taxi-destination
+NONE:O Thank:O you:O very:O much:O .:O I:O don't:O need:O anything:O else:O at:O this:O time:O .:O
+find_train:O I'm:O looking:O for:O a:O train:O from:O norwich:B-train-departure to:O cambridge:B-train-destination .:O
+find_train:O I:O would:O like:O to:O leave:O on:O Tuesday:B-train-day and:O arrive:O by:O 13:30:B-train-arriveby .:O
+find_train:O Ill:O just:O take:O earliest:O train:O then:O please:O .:O
+find_train:O I:O don't:O need:O you:O to:O reserve:O it:O but:O I:O do:O need:O the:O train:O info:O and:O the:O travel:O time:O .:O
+find_train:O Can:O you:O tell:O me:O what:O the:O total:O travel:O time:O for:O that:O is:O ?:O
+NONE:O Thank:O you:O .:O That's:O all:O I:O need:O .:O
+find_taxi:O I:O need:O a:O taxi:O going:O to:O dojo:B-taxi-destination noodle:I-taxi-destination bar:I-taxi-destination .:O
+find_taxi:O I:O will:O be:O departing:O from:O ashley:B-taxi-departure hotel:I-taxi-departure .:O
+find_taxi:O I:O want:O to:O leave:O the:O hotel:O after:O 7:00:B-taxi-leaveat ,:O please:O .:O
+NONE:O THat:O is:O all:O thank:O you:O for:O your:O help:O .:O
+find_hotel:O Hi:O ,:O can:O you:O help:O me:O find:O a:O place:O to:O stay:O ?:O Something:O moderately:O priced:O with:O free:O wifi:O .:O
+find_hotel:O Not:O really:O ,:O but:O I'm:O looking:O for:O something:O with:O 2:B-hotel-stars stars:O .:O
+book_hotel:O Will:O you:O book:O it:O for:O a:O party:O of:O 7:B-hotel-bookpeople .:O 5:B-hotel-bookstay days:O beginning:O Friday:B-hotel-bookday .:O
+NONE:O That's:O great:O .:O No:O I:O don't:O need:O anything:O else:O ,:O thank:O you:O .:O
+find_train:O I:O need:O to:O book:O a:O train:O leaving:O leicester:B-train-departure after:O 12:15:B-train-leaveat .:O Can:O you:O do:O that:O ?:O
+find_train:O I:O would:O like:O to:O go:O to:O Cambridge:B-train-destination on:O Sunday:B-train-day and:O leaving:O after:O 12:15:B-train-leaveat please:O .:O
+find_train:O the:O sooner:O the:O better:O but:O now:O rush:O actually:O
+book_train:O yep:O ,:O for:O 5:B-train-bookpeople people:O at:O 13:09:O
+NONE:O awesome:O ,:O that's:O all:O i:O needed:O ,:O bye:O !:O
+find_restaurant:O I'd:O like:O a:O restuarant:O in:O the:O north:B-restaurant-area with:O expensive:B-restaurant-pricerange food:O .:O
+book_restaurant:O Surprise:O me:O ,:O I:O just:O want:O something:O pricey:O to:O impress:O my:O friends:O .:O It'll:O be:O a:O party:O of:O seven:O .:O
+book_restaurant:O How:O about:O Monday:B-restaurant-bookday at:O 19:15:B-restaurant-booktime .:O
+book_restaurant:O Thank:O you:O so:O much:O .:O That:O is:O all:O I:O will:O be:O needing:O today:O .:O Have:O a:O nice:O evening:O .:O
+NONE:O I:O don't:O think:O I:O need:O it:O ,:O but:O thanks:O for:O asking:O .:O Have:O a:O good:O day:O .:O
+find_hotel:O I:O need:O a:O 4:B-hotel-stars star:O hotel:O on:O the:O north:B-hotel-area side:O .:O
+find_hotel:O Is:O there:O anything:O in:O the:O expensive:B-hotel-pricerange price:O range:O ?:O
+find_hotel:O How:O about:O just:O moderate:B-hotel-pricerange ?:O
+find_hotel:O Yes:O ,:O which:O one:O do:O you:O suggest:O ?:O
+book_hotel:O Can:O you:O book:O it:O for:O 4:B-hotel-stars people:O and:O 4:B-hotel-stars nights:O starting:O from:O saturday:B-hotel-bookday ?:O
+NONE:O No:O ,:O I:O believe:O that:O is:O everything:O .:O Thank:O you:O .:O
+find_hotel:O I:O am:O looking:O for:O a:O hotel:B-hotel-type that:O is:O expensive:B-hotel-pricerange and:O has:O free:O parking:O .:O
+find_hotel:O I'm:O looking:O for:O a:O guesthouse:B-hotel-type in:O the:O east:B-hotel-area side:O of:O town:O .:O
+find_hotel:O Are:O there:O any:O moderately:O priced:O guesthouses:O in:O that:O part:O of:O town:O ?:O
+book_hotel:O Yes:B-hotel-parking ,:O could:O you:O see:O if:O either:O of:O them:O have:O availability:O starting:O on:O Tuesday:B-hotel-bookday for:O 5:B-hotel-bookstay nights:O for:O 5:B-hotel-bookstay people:O ?:O
+NONE:O Thanks:O ,:O that's:O great:O .:O I:O think:O I'm:O done:O for:O today:O .:O
+find_train:O I:O need:O a:O train:O out:O of:O London:B-train-departure Kings:I-train-departure Cross:I-train-departure .:O
+find_train:O The:O train:O should:O go:O to:O Cambridge:B-train-destination on:O Thursday:B-train-day .:O
+book_train:O I:O would:O like:O to:O leave:O after:O 13:00:B-train-leaveat for:O 5:B-train-bookpeople people:O please:O .:O
+book_train:O Yes:O please:O .:O I:O would:O like:O 5:B-train-bookpeople tickets:O please:O .:O
+NONE:O Great:O that:O was:O all:O I:O needed:O thank:O you:O for:O your:O help:O !:O
+find_hotel:O Hello:O ,:O I:O am:O looking:O for:O a:O place:O to:O stay:O that:O includes:O free:O wifi:O .:O I:O would:O also:O prefer:O it:O to:O be:O in:O a:O guesthouse:B-hotel-type
+find_hotel:O The:O area:O isn't:O too:O important:O .:O But:O I:O would:O like:O something:O expensive:B-hotel-pricerange .:O
+find_hotel:O moderately:O priced:O would:O be:O fine:O .:O
+find_hotel:O Yes:B-hotel-parking ,:O can:O you:O book:O that:O for:O 7:O people:O on:O Saturday:O ?:O
+book_hotel:O We'd:O like:O to:O stay:O for:O 2:B-hotel-bookstay nights:O ,:O please:O .:O
+book_hotel:O Is:O there:O a:O reference:O number:O with:O that:O ?:O
+NONE:O Thanks:O .:O That's:O all:O I:O needed:O today:O .:O
+find_restaurant:O I'm:O looking:O for:O a:O restaurant:O in:O the:O south:B-restaurant-area that:O serves:O international:B-restaurant-food food:O .:O
+find_restaurant:O No:O ,:O I:O really:O need:O a:O restaurant:O in:O the:O south:B-restaurant-area that:O serves:O international:B-restaurant-food food:O .:O
+find_restaurant:O Are:O there:O any:O restaurants:O in:O the:O south:B-restaurant-area that:O serve:O Indian:B-restaurant-food food:O ?:O
+book_restaurant:O Will:O you:O please:O book:O a:O table:O for:O 4:B-restaurant-bookpeople people:O at:O 16:15:B-restaurant-booktime on:O wednesday:B-restaurant-bookday ?:O
+book_restaurant:O We:O can:O go:O earlier:O .:O How:O about:O 15:15:B-restaurant-booktime ,:O please:O ?:O
+NONE:O Great:O ,:O that:O was:O all:O .:O Thanks:O
+find_attraction:O I:O would:O like:O information:O on:O The:B-attraction-name Cambridge:I-attraction-name Corn:I-attraction-name Exchange:I-attraction-name
+find_attraction:O No:O thanks:O ,:O I:O just:O need:O their:O phone:O number:O ,:O please:O .:O
+NONE:O No:O that:O is:O all:O I:O need:O today:O .:O Thank:O you:O very:O much:O .:O
+find_train:O I:O need:O a:O train:O from:O leicester:B-train-departure sometime:O after:O 9:30:B-train-leaveat .:O
+find_train:O I:O need:O to:O be:O in:O Cambridge:B-train-destination on:O Monday:B-train-day please:O .:O
+find_train:O Could:O you:O give:O me:O the:O arrival:O time:O and:O price:O on:O that:O please:O ?:O
+book_train:O Yes:O ,:O that:O would:O be:O terrific:O .:O
+NONE:O Okay:O thank:O you:O for:O everything:O .:O
+find_hotel:O Hi:O ,:O I'm:O looking:O for:O a:O place:O to:O stay:O with:O free:O wifi:O in:O the:O east:B-hotel-area part:O of:O town:O .:O
+find_hotel:O Preferably:O something:O on:O the:O cheaper:O side:O .:O
+find_hotel:O Do:O any:O of:O the:O three:O have:O parking:O ?:O
+find_hotel:O Okay:O ,:O could:O you:O tell:O me:O the:O address:O for:O that:O guesthouse:O ?:O
+find_hotel:O Thank:O you:O .:O How:O many:O stars:O does:O the:O Autumn:B-hotel-name House:I-hotel-name have:O ?:O
+NONE:O No:O ,:O that's:O okay:O .:O Thanks:O for:O your:O help:O .:O Bye:O !:O
+find_hotel:O Yes:B-hotel-parking I:O am:O looking:O for:O a:O hotel:O to:O stay:O at:O with:O free:O parking:O please:O
+find_hotel:O No:O ,:O I:O really:O only:O care:O that:O it:O is:O 4:B-hotel-stars stars:O and:O an:O actual:O hotel:B-hotel-type .:O
+find_hotel:O Perhaps:O .:O What's:O their:O postcode:O ?:O
+find_hotel:O As:O long:O as:O the:O Huntingdon:O Marriott:O has:O 4:B-hotel-stars stars:O ,:O I'm:O good:O to:O go:O ,:O thanks:O .:O
+find_hotel:O Do:O you:O have:O information:O on:O the:O Express:B-hotel-name by:I-hotel-name Holiday:I-hotel-name Inn:I-hotel-name Cambridge:I-hotel-name ?:O
+NONE:O Okay:O .:O Thanks:O a:O lot:O .:O That's:O all:O I:O need:O right:O now:O .:O
+find_hotel:O Is:O there:O a:O place:O on:O the:O east:B-hotel-area side:O of:O town:O with:O free:O parking:O ?:O
+find_hotel:O I'd:O like:O it:O to:O be:O somewhere:O that's:O really:O cheap:B-hotel-pricerange ,:O and:O I'd:O really:O prefer:O a:O guesthouse:B-hotel-type if:O one:O is:O available:O .:O
+book_hotel:O Yes:B-hotel-parking ,:O please:O make:O a:O reservation:O for:O 1:B-hotel-bookpeople person:O ,:O 3:B-hotel-bookstay nights:O ,:O starting:O from:O Thursday:B-hotel-bookday .:O
+NONE:O That's:O all:O ,:O thanks:O .:O
+find_taxi:O Can:O you:O arrange:O for:O a:O taxi:O that:O will:O take:O me:O from:O ugly:B-taxi-departure duckling:I-taxi-departure to:O ely:B-taxi-destination train:I-taxi-destination station:I-taxi-destination ?:O
+find_taxi:O I:O would:O like:O to:O leave:O after:O 01:00:B-taxi-leaveat please:O .:O
+NONE:O That:O is:O all:O I:O needed:O .:O Thanks:O .:O
+find_taxi:O I:O need:O a:O taxi:O to:O come:O get:O me:O from:O old:B-taxi-departure schools:I-taxi-departure to:O take:O me:O to:O loch:B-taxi-destination fyne:I-taxi-destination .:O
+find_taxi:O I:O actually:O need:O to:O leave:O after:O 11:00:B-taxi-leaveat .:O
+find_taxi:O That:O will:O be:O fine:O ,:O could:O you:O give:O me:O the:O contact:O number:O ?:O
+find_taxi:O Thank:O you:O ,:O that's:O it:O .:O I:O will:O look:O for:O the:O taxi:O after:O 11:00:B-taxi-leaveat .:O Goodbye:O .:O
+find_restaurant:O Yes:O I:O am:O looking:O for:O an:O expensive:B-restaurant-pricerange Chinese:B-restaurant-food restaurant:O .:O
+find_restaurant:O I:O don't:O .:O Could:O you:O make:O a:O recommendation:O ?:O
+find_restaurant:O What:O is:O the:O postcode:O for:O that:O restaurant:O ?:O
+NONE:O That:O won't:O be:O necessary:O .:O Thank:O you:O for:O the:O help:O !:O
+find_restaurant:O Would:O you:O be:O able:O to:O recommend:O an:O expensive:B-restaurant-pricerange restaurant:O that:O serves:O Panasian:B-restaurant-food food:O ?:O
+find_restaurant:O Are:O there:O any:O panasian:B-restaurant-food restaurants:O ?:O
+find_restaurant:O That's:O okay:O ,:O are:O there:O any:O expensive:B-restaurant-pricerange Italian:B-restaurant-food restaurants:O ?:O I'd:O prefer:O the:O centre:B-restaurant-area of:O town:O .:O
+find_restaurant:O Well:O ,:O can:O you:O recommend:O me:O another:O expensive:B-restaurant-pricerange restaurant:O .:O I:O need:O the:O address:O and:O the:O phone:O number:O to:O make:O a:O reservation:O .:O
+NONE:O Thanks:O .:O I:O will:O check:O it:O out:O .:O
+find_restaurant:O Yes:O ,:O can:O you:O tell:O me:O what:O their:O postcode:O is:O ,:O please:O ?:O
+NONE:O Thanks:O so:O much:O ,:O that:O is:O all:O I:O needed:O .:O
+find_hotel:O Can:O you:O give:O me:O any:O info:O on:O whether:O you:O have:O any:O 2-star:O hotel:O or:O guesthouses:O somewhere:O in:O town:O ?:O
+find_hotel:O Does:O it:O have:O free:O wifi:O and:O free:O parking:O ?:O
+book_hotel:O Yes:B-hotel-parking ,:O make:O a:O reservation:O for:O 2:B-hotel-stars for:O 3:O nights:O starting:O Wednesday:B-hotel-bookday .:O
+book_hotel:O How:O about:O trying:O another:O 2-star:O hotel:O with:O free:O wifi:O and:O free:O parking:O ?:O
+book_hotel:O Yes:B-hotel-parking ,:O the:O Express:O is:O fine:O .:O I:O need:O it:O for:O 2:B-hotel-stars people:O and:O for:O 3:B-hotel-bookstay nights:O starting:O Wednesday:B-hotel-bookday .:O I:O need:O the:O reference:O number:O ,:O please:O .:O
+book_hotel:O Let:O me:O look:O over:O my:O notes:O quick:O .:O I:O need:O a:O hotel:B-hotel-type ,:O not:O a:O guestroom:O ,:O with:O 2:B-hotel-stars stars:O .:O Free:O Parking:O &:O WiFi:O .:O 3:B-hotel-bookstay nights:O starting:O Wednesday:B-hotel-bookday ,:O 2:B-hotel-stars people:O .:O
+book_hotel:O Area:O doesn't:O matter:O .:O Just:O book:O me:O one:O and:O hand:O me:O the:O reference:O number:O .:O
+NONE:O No:O ,:O that:O will:O be:O all:O .:O Thank:O you:O
+find_hotel:O I:O am:O looking:O for:O a:O hotel:B-hotel-type ti:O stay:O in:O the:O expensive:B-hotel-pricerange range:O .:O It:O does:O not:O have:O to:O be:O free:O parking:O .:O
+find_hotel:O No:O .:O But:O it:O should:O have:O free:O wifi:O .:O
+find_hotel:O I:O don't:O care:O about:O the:O number:O of:O stars:O .:O If:O you:O don't:O have:O one:O without:O parking:O ,:O I'll:O take:O one:O with:O parking:O .:O Choose:O the:O best:O one:O ,:O please:O .:O
+book_hotel:O Yes:B-hotel-parking .:O There:O will:O be:O 5:B-hotel-bookstay of:O us:O staying:O for:O 3:B-hotel-bookpeople nights:O ,:O arriving:O on:O Sunday:B-hotel-bookday .:O I:O sure:O hope:O Cambridge:O is:O nice:O this:O time:O of:O year:O .:O
+book_hotel:O Is:O there:O another:O hotel:B-hotel-type available:O that:O will:O accommodate:O my:O stay:O ?:O
+book_hotel:O Sure:O .:O Same:O parameters:O ,:O please:O .:O
+NONE:O Sure:O ,:O see:O if:O that:O works:O
+book_hotel:O Are:O you:O sure:O there:O is:O nothing:O available:O ?:O Will:O you:O double:O check:O ?:O
+NONE:O Okay:O ,:O thank:O you:O ,:O that:O is:O all:O I:O need:O today:O .:O
+find_taxi:O I:O need:O a:O taxi:O to:O take:O me:O to:O Museum:B-taxi-destination of:I-taxi-destination Classical:I-taxi-destination Archaeology:I-taxi-destination to:O leave:O after:O 15:15:B-taxi-leaveat .:O
+find_taxi:O 16:B-taxi-arriveby 00:O thank:O you:O
+find_taxi:O Sorry:O ,:O it:O actually:O does:O not:O matter:O when:O I:O arrive:O .:O I:O just:O want:O to:O leave:O after:O 15:15:B-taxi-leaveat .:O And:O I'll:O be:O coming:O from:O la:B-taxi-departure tasca:I-taxi-departure .:O
+find_hotel:O I'm:O looking:O for:O an:O expensive:B-hotel-pricerange hotel:O to:O stay:O in:O .:O
+find_hotel:O Is:O that:O a:O hotel:O or:O guesthouse:B-hotel-type ?:O I:O prefer:O an:O expensive:B-hotel-pricerange guesthouse:B-hotel-type if:O possible:O .:O
+find_hotel:O Can:O you:O try:O searching:O for:O moderate:B-hotel-pricerange priced:O hotels:O ?:O
+find_hotel:O I:O prefer:O the:O east:B-hotel-area and:O would:O like:O free:O wifi:O
+NONE:O That:O could:O be:O really:O nice:O ,:O thank:O you:O .:O
+book_hotel:O Please:O ,:O book:O the:O hotel:O for:O 5:B-hotel-bookstay days:O for:O 4:B-hotel-bookpeople people:O starting:O on:O Friday:B-hotel-bookday .:O
+book_hotel:O On:O second:O thought:O ,:O I:O don't:O want:O to:O book:O it:O today:O .:O Can:O you:O just:O confirm:O that:O it:O is:O in:O the:O East:B-hotel-area part:O of:O town:O ?:O That:O is:O all:O I:O will:O need:O .:O
+NONE:O That:O is:O all:O the:O information:O I:O need:O .:O Thanks:O so:O much:O .:O I'll:O book:O it:O myself:O later:O .:O Bye:O .:O
+find_taxi:O I:O need:O to:O book:O a:O taxi:O going:O to:O sidney:B-taxi-destination sussex:I-taxi-destination college:I-taxi-destination .:O
+find_taxi:O I:O have:O to:O arrive:O by:O 12:15:B-taxi-arriveby
+find_taxi:O I:O need:O to:O be:O picked:O up:O from:O curry:B-taxi-departure prince:I-taxi-departure .:O Please:O let:O me:O know:O what:O kind:O of:O car:O to:O expect:O and:O a:O number:O they:O can:O be:O reached:O at:O .:O
+NONE:O Thanks:O ,:O that's:O great:O .:O
+find_taxi:O I:O would:O like:O to:O book:O a:O taxi:O to:O leave:O from:O cow:B-taxi-departure pizza:I-taxi-departure kitchen:I-taxi-departure and:I-taxi-departure bar:I-taxi-departure after:O 17:15:B-taxi-leaveat .:O
+find_taxi:O I:O would:O like:O to:O go:O to:O Bishops:B-taxi-destination Stortford:I-taxi-destination Train:I-taxi-destination Station:I-taxi-destination .:O Could:O you:O send:O me:O the:O contact:O number:O and:O car:O type:O ,:O as:O well:O ?:O
+find_taxi:O Can:O you:O please:O confirm:O that:O my:O booking:O is:O set:O ?:O Thank:O you:O .:O
+find_taxi:O What:O time:O will:O it:O arrive:O ?:O
+NONE:O No:O that's:O all:O .:O Thank:O you:O .:O
+find_restaurant:O I:O want:O to:O eat:O at:O a:O moderately:O priced:O restaurant:O please:O
+find_restaurant:O Belgian:B-restaurant-food please:O ,:O i'm:O craving:O that:O lately:O
+find_restaurant:O I:O prefer:O to:O eat:O in:O the:O center:O of:O town:O ,:O please:O .:O
+find_restaurant:O Hmm.:O .:O How:O about:O somewhere:O else:O in:O town:O ,:O what:O is:O available:O ?:O
+find_restaurant:O Why:O don't:O we:O try:O turkish:B-restaurant-food food:O instead:O
+book_restaurant:O Either:O would:O be:O fine:O .:O Can:O you:O book:O for:O 1:B-restaurant-bookpeople at:O 20:00:B-restaurant-booktime on:O Tuesday:B-restaurant-bookday ?:O
+book_restaurant:O Yes:O try:O 19:00:B-restaurant-booktime and:O please:O give:O me:O the:O reference:B-restaurant-name number:O .:O
+NONE:O Thanks:O so:O much:O !:O You've:O been:O helpful:O .:O
+NONE:O You:O have:O a:O nice:O day:O also:O .:O
+find_train:O I'd:O like:O to:O find:O a:O train:O Tuesday:B-train-day departing:O from:O Leicester:B-train-departure .:O
+find_train:O I:O would:O like:O to:O leave:O after:O 11:15:B-train-leaveat .:O
+find_train:O Yes:O I:O would:O like:O to:O go:O from:O leicester:B-train-departure to:O cambridge:B-train-destination and:O leave:O after:O 11:15:B-train-leaveat please:O .:O
+book_train:O Yes:O I'll:O need:O 4:B-train-bookpeople tickets:O please:O .:O
+NONE:O No:O ,:O you:O have:O been:O very:O helpful:O .:O Goodnight:O .:O
+find_restaurant:O I:O am:O looking:O for:O a:O place:O to:O eat:O in:O the:O West:B-restaurant-area ,:O Thai:B-restaurant-food food:O please:O .:O
+find_restaurant:O Yes:O ,:O that:O sounds:O great:O !:O
+find_restaurant:O Could:O you:O give:O me:O the:O address:O ,:O phone:O number:O ,:O and:O postcode:O ?:O
+NONE:O Okay:O great:O .:O That:O is:O all:O I:O need:O to:O know:O .:O
+find_restaurant:O No:O ,:O that:O is:O all:O I:O need:O today:O .:O
+find_hotel:O I:O am:O looking:O for:O a:O guest:O house:O that:O i:O can:O stay:O in.Free:O parking:O is:O also:O an:O added:O advantage:O .:O
+find_hotel:O 4/5/2018:O -:O 4/10/2018:O
+find_hotel:O I:O am:O looking:O for:O something:O in:O the:O moderate:B-hotel-pricerange price:O range:O and:O free:O internet:O ,:O please:O .:O
+find_hotel:O Perfect:O .:O what:O is:O the:O star:O and:O area:O of:O the:O hotel:O ?:O
+NONE:O No:O that:O won't:O be:O necessary:O .:O I:O have:O all:O of:O the:O information:O I:O need:O for:O now:O .:O Thanks:O
+NONE:O Thank:O you:O goodbye:O
+find_restaurant:O I'm:O in:O the:O mood:O for:O a:O traditional:O American:B-restaurant-food food:O restaurant:O tonight:O and:O looking:O to:O treat:O myself:O to:O some:O expensive:B-restaurant-pricerange fine:O dining:O .:O Can:O you:O help:O me:O find:O a:O perfect:O place:O ?:O
+find_restaurant:O Is:O it:O located:O in:O the:O centre:O of:O town:O ?:O
+NONE:O No:O thank:O you:O .:O We:O will:O just:O head:O there:O now:O .:O
+NONE:O That:O will:O be:O all:O ,:O thank:O you:O .:O
+find_restaurant:O Awesome:O but:O can:O you:O give:O me:O the:O reference:O number:O ?:O
+book_restaurant:O Oh:O yeah:O sure:O -:O I:O need:O table:O for:O 3:B-restaurant-bookpeople people:O at:O 19:00:B-restaurant-booktime on:O wednesday:B-restaurant-bookday .:O
+book_restaurant:O hmm:O find:O me:O something:O chinese:B-restaurant-food then:O
+book_restaurant:O yeah:O ,:O actually:O let's:O try:O 18:00:B-restaurant-booktime
+book_restaurant:O great:O to:O hear:O that:O ,:O have:O a:O good:O day:O !:O
+find_taxi:O I:O need:O a:O taxi:O to:O pick:O me:O up:O at:O Trinity:B-taxi-departure college:I-taxi-departure .:O
+find_taxi:O I:O need:O to:O leave:O after:O 24:00:B-taxi-leaveat .:O
+find_taxi:O I'm:O headed:O to:O saffron:B-taxi-destination brasserie:I-taxi-destination .:O
+find_taxi:O Can:O I:O get:O the:O car:O type:O and:O contact:O number:O please:O ?:O
+NONE:O No:O thank:O you:O ,:O we:O have:O a:O restaurant:O recommendation:O already:O for:O today:O .:O
+find_train:O I:O want:O to:O book:O an:O evening:O train:O from:O Bishops:O Strotford:O to:O Cambridge:B-train-destination .:O
+find_train:O Sunday:B-train-day please:O .:O I'd:O like:O to:O leave:O after:O 16:30:B-train-leaveat .:O
+book_train:O Yes:O ,:O let's:O book:O it:O for:O four:O ,:O please:O .:O May:O I:O have:O a:O reference:O number:O ?:O
+NONE:O Thank:O you:O .:O That:O is:O all:O I:O need:O today:O .:O
+find_hotel:O I:O need:O a:O place:O to:O stay:O on:O the:O west:B-hotel-area side:O of:O town:O ,:O and:O I:O definitely:O need:O free:O wifi:O .:O
+find_hotel:O Price:O doesn't:O really:O matter:O ,:O but:O I'd:O like:O it:O to:O include:O internet:O and:O parking:O please:O .:O
+find_hotel:O A:O hotel:B-hotel-type ,:O please:O .:O
+find_hotel:O The:O Huntingdon:B-hotel-name Marriott:I-hotel-name Hotel:B-hotel-type will:O work:O .:O Can:O I:O have:O the:O phone:O number:O and:O address:O ?:O
+NONE:O No:O ,:O that's:O all:O I:O need:O .:O I:O will:O give:O them:O a:O call:O myself:O .:O Thank:O you:O !:O
+find_taxi:O I:O would:O like:O to:O get:O a:O taxi:O from:O the:O Museum:B-taxi-departure of:I-taxi-departure archaeology:I-taxi-departure and:I-taxi-departure anthropology:I-taxi-departure to:O the:O Soul:B-taxi-destination Tree:I-taxi-destination Nightclub:I-taxi-destination
+find_taxi:O The:O taxi:O should:O arrive:O by:O 02:30:B-taxi-arriveby
+find_taxi:O yes:O actually:O ,:O I:O was:O wondering:O if:O you:O had:O any:O contact:O information:O for:O the:O driver:O ?:O
+NONE:O Nope:O ,:O that's:O all:O I:O need:O today:O .:O Thanks:O !:O
+find_taxi:O I:O really:O need:O to:O find:O a:O taxi:O ,:O if:O you:O can:O help:O .:O I:O can't:O leave:O until:O after:O 7:00:B-taxi-leaveat ,:O though:O .:O I:O need:O to:O get:O to:O carolina:B-taxi-destination bed:I-taxi-destination and:I-taxi-destination breakfast:I-taxi-destination .:O
+find_taxi:O I:O will:O be:O leaving:O from:O the:O Cafe:B-taxi-departure Jello:I-taxi-departure Gallery:I-taxi-departure .:O
+NONE:O That:O will:O be:O fine:O ,:O thank:O you:O for:O your:O help:O ,:O bye:O .:O
+find_hotel:O I'm:O looking:O for:O an:O expensive:B-hotel-pricerange hotel:O in:O the:O south:B-hotel-area to:O stay:O in:O .:O
+find_hotel:O Yes:O ,:O please:O book:O me:O a:O room:O .:O
+book_hotel:O Can:O you:O book:O the:O hotel:O for:O 4:B-hotel-bookpeople people:O ,:O 3:B-hotel-bookstay nights:O on:O Thursday:B-hotel-bookday ?:O
+NONE:O Thanks:O for:O your:O help:O .:O That's:O all:O I:O needed:O .:O
+find_attraction:O Could:O you:O help:O me:O find:O a:O place:O to:O go:O ?:O I'd:O like:O to:O find:O some:O architecture:B-attraction-type .:O
+find_attraction:O What:O is:O the:O postcode:O for:O your:O recommended:O one:O ?:O You:O choose:O .:O
+find_attraction:O That:O sounds:O perfect:O .:O Thank:O you:O very:O much:O !:O
+NONE:O No:O that:O will:O be:O all:O for:O now:O .:O
+NONE:O Thank:O you:O very:O much:O .:O
+find_taxi:O I'm:O at:O Saint:B-taxi-departure John's:I-taxi-departure College:I-taxi-departure .:O I:O need:O a:O taxi:O to:O pick:O me:O up:O at:O 18:45:B-taxi-leaveat .:O
+find_taxi:O I'm:O going:O to:O la:B-taxi-destination margherita:I-taxi-destination .:O
+NONE:O Thanks:O so:O much:O that:O sounds:O perfect:O .:O Have:O a:O great:O day:O ::O ):O
+NONE:O No:O ,:O that's:O all:O for:O now:O .:O Thanks:O ,:O again:O .:O Goodbye:O .:O
+find_taxi:O I:O would:O like:O a:O taxi:O please:O
+find_taxi:O What:O time:O do:O you:O need:O at:O taxi:O and:O from:O where:O ?:O
+find_taxi:O I:O actually:O need:O to:O arrive:O at:O 19:30:B-taxi-arriveby .:O
+find_taxi:O I:O am:O departing:O from:O frankie:B-taxi-departure and:I-taxi-departure bennys:I-taxi-departure
+find_taxi:O I'm:O going:O to:O cafe:B-taxi-destination uno:I-taxi-destination .:O
+NONE:O Thank:O you:O .:O I'm:O glad:O it's:O taken:O care:O of:O .:O
+NONE:O There:O is:O nothing:O more:O ,:O thank:O you:O .:O Goodbye:O .:O
+find_restaurant:O I'd:O love:O to:O find:O an:O expensive:B-restaurant-pricerange German:B-restaurant-food restaurant:O .:O
+find_restaurant:O how:O about:O one:O that:O serves:O european:B-restaurant-food food:O ?:O
+book_restaurant:O I:O don't:O care:O which:O area:O .:O Just:O need:O to:O find:O a:O table:O for:O 5:B-restaurant-bookpeople people:O at:O 15:00:B-restaurant-booktime on:O Saturday:B-restaurant-bookday .:O I:O will:O need:O the:O reference:O number:O once:O booked:O .:O
+book_restaurant:O Great:O thank:O you:O for:O all:O your:O help:O .:O
+find_train:O I:O am:O looking:O for:O a:O train:O on:O Friday:B-train-day that:O leaves:O after:O 21:45:B-train-leaveat .:O
+find_train:O I'll:O be:O leaving:O from:O Cambridge:B-train-departure and:O I:O want:O to:O go:O to:O Stansted:B-train-destination Airport:I-train-destination .:O
+find_train:O I:O need:O to:O leave:O after:O 21:45:B-train-leaveat .:O
+find_train:O Yes:O how:O long:O is:O the:O journey:O please:O ?:O
+NONE:O Alright:O .:O thank:O you:O very:O much:O
+NONE:O No:O ,:O that's:O it:O for:O now:O .:O Have:O a:O good:O day:O .:O Bye:O !:O
+find_hotel:O Do:O you:O have:O any:O information:O on:O the:O University:B-hotel-name Arms:I-hotel-name Hotel:I-hotel-name ?:O I've:O heard:O it's:O a:O nice:O place:O .:O
+book_hotel:O I:O need:O a:O room:O for:O one:O person:O starting:O sunday:B-hotel-bookday for:O 3:B-hotel-bookstay nights:O
+book_hotel:O All:O right:O ,:O what:O about:O 2:B-hotel-bookstay nights:O ?:O
+NONE:O No:O ,:O that's:O all:O I:O need:O .:O Thanks:O for:O your:O help:O !:O
+find_taxi:O Hello:O ,:O I'd:O like:O to:O book:O a:O taxi:O from:O Restaurant:B-taxi-departure Two:I-taxi-departure Two:I-taxi-departure to:O the:O Museum:B-taxi-destination of:I-taxi-destination Classical:I-taxi-destination Archaeology:I-taxi-destination .:O
+find_taxi:O I:O need:O to:O be:O picked:O up:O by:O 11:00:B-taxi-leaveat .:O
+NONE:O Thank:O you:O ,:O that's:O all:O .:O
+NONE:O Yes:O .:O Thank:O you:O .:O
+find_taxi:O I:O need:O to:O find:O a:O taxi:O departing:O from:O alimentum:B-taxi-departure .:O
+find_taxi:O I:O would:O like:O to:O arrive:O by:O 03:15:B-taxi-arriveby and:O go:O to:O Ali:B-taxi-destination Baba:I-taxi-destination please:O .:O
+NONE:O No:O that:O is:O all:O .:O Thank:O you:O for:O your:O help:O .:O
+find_hotel:O I'm:O looking:O for:O a:O cheap:B-hotel-pricerange place:O to:O stay:O with:O free:O wifi:O .:O
+find_hotel:O Yes:B-hotel-internet ,:O I:O am:O looking:O for:O a:O hotel:O with:O a:O 2:B-hotel-stars star:O rating:O .:O
+find_hotel:O Let's:O try:O something:O in:O the:O moderate:B-hotel-pricerange price:O range:O with:O two:O stars:O and:O free:O wifi:O please:O .:O
+find_hotel:O Lets:O try:O the:O Ashley:B-hotel-name House:O please:O .:O
+book_hotel:O We'll:O arrive:O on:O Wednesday:B-hotel-bookday and:O stay:O 3:B-hotel-bookstay nights:O .:O There:O will:O be:O 2:B-hotel-stars of:O us:O .:O
+book_hotel:O That:O is:O all:O I:O need:O for:O now:O .:O Thank:O you:O for:O finding:O the:O hotel:O .:O
+find_restaurant:O Are:O there:O any:O moderately:O priced:O restaurants:O serving:O international:B-restaurant-food food:O ?:O
+find_restaurant:O What:O is:O the:O address:O of:O the:O Bloomsbury:B-restaurant-name ?:O
+find_restaurant:O What:O is:O their:O phone:O number:O ?:O
+find_restaurant:O Not:O at:O the:O moment:O but:O I:O would:O also:O like:O their:O address:O and:O postcode:O .:O
+NONE:O Great:O ,:O thanks:O very:O much:O !:O
+NONE:O No:O ,:O thank:O you:O .:O That:O is:O all:O .:O
+find_hotel:O I:O need:O a:O hotel:B-hotel-type in:O the:O south:B-hotel-area of:O the:O city:O ,:O it:O is:O ok:O if:O the:O hotel:B-hotel-type doesn't:O has:O free:O parking:O .:O
+find_hotel:O What:O is:O the:O price:O of:O the:O Lensfield:O ?:O
+find_hotel:O Is:O there:O a:O moderate:B-hotel-pricerange place:O in:O the:O in:O the:O south:B-hotel-area that:O has:O free:O parking:O ?:O
+find_hotel:O Are:O there:O any:O moderately:O priced:O hotels:O that:O don't:O have:O free:O parking:O ,:O but:O have:O wifi:O ?:O
+find_hotel:O Yes:B-hotel-internet ,:O can:O you:O give:O me:O the:O address:O of:O your:O favorite:O one:O ?:O
+NONE:O No:O that:O would:O be:O all:O .:O Thanks:O .:O
+find_taxi:O Can:O you:O help:O me:O with:O a:O taxi:O booking:O ?:O
+find_taxi:O I:O must:O arrive:O to:O nandos:B-taxi-destination by:O 23:15:B-taxi-arriveby
+find_taxi:O At:O the:O London:O Museum:O thank:O you:O
+find_taxi:O It:O will:O depart:O from:O the:B-taxi-departure place:I-taxi-departure .:O
+NONE:O that:O is:O all:O ,:O thanks:O
+NONE:O Thank:O you:O ,:O I:O appreciate:O it:O .:O
+NONE:O Thank:O you:O goodbye:O
+find_attraction:O Are:O there:O museums:O in:O the:O town:O centre:B-attraction-area ?:O
+find_attraction:O Can:O you:O recommend:O one:O and:O give:O me:O their:O address:O and:O postcode:O ?:O
+find_attraction:O Thanks:O so:O much:O ,:O that:O sounds:O perfect:O .:O
+NONE:O No:O ,:O I:O think:O that:O covers:O everything:O .:O Thanks:O so:O much:O for:O your:O help:O .:O
+find_train:O I:O am:O looking:O for:O a:O train:O going:O from:O Cambridge:B-train-departure to:O stansted:B-train-destination airport:I-train-destination .:O
+find_train:O The:O train:O needs:O to:O leave:O on:O Monday:B-train-day after:O 11:45:B-train-leaveat .:O
+book_train:O No:O ,:O just:O the:O closest:O time:O after:O 11:45:B-train-leaveat for:O 5:B-train-bookpeople tickets:O please:O .:O
+book_train:O Yes:O please:O .:O Can:O I:O have:O the:O reference:O number:O for:O the:O booking:O ?:O
+NONE:O No:O ,:O that:O will:O be:O all:O .:O Thanks:O for:O your:O help:O .:O
+find_hotel:O I'm:O looking:O for:O more:O information:O on:O arbury:B-hotel-name lodge:I-hotel-name guesthouse:I-hotel-name .:O
+book_hotel:O Yes:O ,:O please:O .:O For:O 3:B-hotel-bookstay people:O ,:O 3:B-hotel-bookstay nights:O starting:O on:O tuesday:B-hotel-bookday .:O
+NONE:O Thanks:O ,:O that's:O all:O .:O Good:O bye:O .:O
+find_hotel:O I:O need:O a:O hotel:O in:O the:O south:B-hotel-area with:O free:O wifi:O .:O
+find_hotel:O Can:O you:O tell:O me:O if:O the:O cheap:B-hotel-pricerange one:O has:O a:O star:O rating:O ?:O
+book_hotel:O Yes:B-hotel-internet ,:O please:O book:O a:O room:O for:O 5:B-hotel-bookpeople people:O .:O
+book_hotel:O Please:O book:O it:O on:O Thursday:B-hotel-bookday ,:O for:O 5:B-hotel-bookpeople people:O ,:O and:O 3:B-hotel-bookstay days:O .:O
+NONE:O That:O will:O be:O all:O ,:O thank:O you:O .:O
+find_taxi:O I:O want:O to:O visit:O the:O museum:B-taxi-destination of:I-taxi-destination archaelogy:I-taxi-destination and:I-taxi-destination anthropology:I-taxi-destination and:O need:O a:O taxi:O to:O take:O me:O
+find_taxi:O I:O need:O to:O arrive:O by:O 04:45:B-taxi-arriveby .:O
+find_taxi:O I:O am:O departing:O from:O The:B-taxi-departure Missing:I-taxi-departure Sock:I-taxi-departure .:O
+NONE:O No:O ,:O that's:O everything:O .:O Thanks:O for:O your:O help:O .:O
+find_hotel:O I'm:O looking:O for:O a:O hotel:O called:O the:O Arbury:B-hotel-name Lodge:I-hotel-name Guesthouse:I-hotel-name .:O Do:O you:O have:O a:O listing:O for:O this:O ?:O
+book_hotel:O Are:O you:O sure:O ,:O but:O if:O not:O ,:O book:O the:O Super:B-hotel-name 5:I-hotel-name for:O 8:B-hotel-bookpeople people:O for:O 5:B-hotel-bookstay nights:O starting:O Monday:B-hotel-bookday .:O I:O will:O need:O the:O reference:O number:O .:O
+NONE:O That's:O great:O !:O Thanks:O ,:O I:O think:O that's:O all:O I:O need:O today:O .:O
+find_restaurant:O I'm:O looking:O for:O a:O British:B-restaurant-food restaurant:O ,:O in:O the:O expensive:B-restaurant-pricerange price:O range:O .:O
+book_restaurant:O Graffiti:B-restaurant-name sounds:O good:O .:O I'll:O need:O a:O table:O for:O four:O on:O Thursday:B-restaurant-bookday at:O 16:45:B-restaurant-booktime ,:O please:O .:O
+NONE:O Great:O !:O Thanks:O a:O lot:O .:O Thats:O all:O I:O will:O be:O needing:O .:O Have:O a:O good:O day:O .:O Bye:O !:O
+find_restaurant:O I'm:O looking:O for:O a:O cheap:B-restaurant-pricerange place:O to:O dine:O ,:O preferably:O in:O the:O centre:B-restaurant-area of:O town:O .:O
+find_restaurant:O Yes:O ,:O what:O restaurants:O are:O there:O ?:O
+find_restaurant:O Charlie:B-restaurant-name Chan:I-restaurant-name sounds:O good:O .:O Thank:O you:O !:O
+book_restaurant:O I'd:O like:O to:O book:O 4:B-restaurant-bookpeople people:O at:O 14:15:B-restaurant-booktime on:O Friday:B-restaurant-bookday .:O
+NONE:O That:O is:O all:O ,:O thank:O you:O very:O much:O .:O
+find_hotel:O Hi:O ,:O I'd:O like:O to:O find:O out:O about:O the:O Limehouse:B-hotel-name hotel:O .:O
+NONE:O Actually:O ,:O you:O answered:O all:O of:O my:O questions:O .:O Thanks:O so:O much:O .:O Goodbye:O .:O
+find_train:O i:O am:O looking:O for:O a:O train:O from:O london:B-train-departure kings:I-train-departure cross:I-train-departure and:O leaves:O on:O wednesday:B-train-day
+find_train:O I:O am:O looking:O to:O book:O a:O train:O that:O arrives:O by:O 13:30:B-train-arriveby .:O Are:O there:O any:O that:O fit:O that:O description:O ?:O
+find_train:O No:O ,:O I:O just:O need:O to:O know:O how:O much:O it:O is:O .:O
+find_train:O Sounds:O great:O .:O Is:O TR2417:O the:O train:O ID:O ?:O
+find_train:O I:O will:O also:O need:O the:O departure:O time:O please:O .:O
+NONE:O No:O ,:O I:O think:O we:O have:O covered:O everything:O .:O Thank:O you:O so:O much:O for:O all:O of:O your:O help:O .:O
+find_taxi:O I:O need:O to:O book:O a:O taxi:O from:O clowns:B-taxi-departure cafe:I-taxi-departure .:O
+find_taxi:O Clowns:B-taxi-destination cafe:I-taxi-destination ,:O please:O .:O
+find_taxi:O I:O will:O be:O leaving:O from:O there:O and:O going:O to:O primavera:B-taxi-destination
+find_taxi:O I:O would:O like:O to:O leave:O around:O 22:00:B-taxi-leaveat please:O and:O thank:O you:O .:O
+NONE:O This:O is:O all:O I:O need:O .:O Thank:O you:O so:O very:O much:O .:O
+find_taxi:O I'd:O like:O a:O taxie:O from:O my:O home:B-taxi-departure please:O .:O
+find_taxi:O I'm:O heading:O to:O the:B-taxi-destination river:I-taxi-destination bar:I-taxi-destination steakhouse:I-taxi-destination and:I-taxi-destination grill:I-taxi-destination .:O I:O am:O so:O hungry:O !:O
+find_taxi:O The:O taxi:O should:O be:O at:O home:B-taxi-departure from:O home:B-taxi-departure by:O 10:00:B-taxi-leaveat ,:O if:O you:O can:O arrange:O it:O .:O
+find_train:O Wow:O ,:O sounds:O like:O you:O might:O be:O able:O to:O help:O me:O then:O .:O Can:O you:O find:O me:O a:O train:O going:O into:O Leicester:B-train-destination ?:O
+find_train:O I:O will:O need:O to:O leave:O from:O Cambridge:B-train-departure .:O
+find_train:O I:O would:O like:O to:O travel:O on:O a:O Thursday:B-train-day .:O
+find_train:O I:O just:O need:O to:O arrive:O by:O 17:45:B-train-arriveby
+find_train:O What:O is:O the:O total:O travel:O time:O and:O price:O on:O that:O ?:O
+find_train:O That:O sounds:O perfect:O .:O Thanks:O for:O all:O your:O help:O .:O
+NONE:O That's:O not:O needed:O .:O Thank:O you:O !:O
+find_hotel:O Could:O you:O find:O a:O moderate:B-hotel-pricerange priced:O place:O to:O stay:O for:O me:O ?:O I:O do:O need:O free:O WiFi:O .:O
+find_hotel:O I'd:O prefer:O something:O with:O 2:B-hotel-stars stars:O ,:O and:O I:O need:O free:O parking:O as:O well:O .:O
+book_hotel:O Great:O can:O I:O get:O a:O reservation:O at:O The:O Ashley:B-hotel-name hotel:I-hotel-name for:O 4:B-hotel-bookpeople people:O for:O 2:B-hotel-stars nights:O starting:O tuesday:B-hotel-bookday ?:O
+NONE:O No:O ,:O that's:O all:O for:O me:O .:O Thanks:O !:O Goodbye:O !:O
+find_hotel:O I:O am:O looking:O for:O a:O place:O to:O stay:O .:O The:O hotel:O should:O include:O free:O wifi:O and:O should:O be:O in:O the:O type:O of:O guesthouse:B-hotel-type
+find_hotel:O I:O am:O unsure:O about:O the:O area:O ,:O right:O now:O .:O I:O would:O like:O the:O accommodations:O to:O be:O at:O least:O 4:B-hotel-stars star:O and:O have:O a:O moderate:B-hotel-pricerange price:O .:O
+find_hotel:O No:B-hotel-parking .:O I:O shouldn't:O need:O parking:O .:O
+book_hotel:O If:O it:O is:O 4:B-hotel-stars stars:O in:O the:O moderate:B-hotel-pricerange price:O range:O that:O sounds:O fine:O .:O I:O need:O it:O for:O 3:B-hotel-bookstay nights:O for:O 3:B-hotel-bookstay people:O starting:O Sunday:B-hotel-bookday .:O
+book_hotel:O Okay:O ,:O how:O about:O on:O Monday:B-hotel-bookday ?:O
+NONE:O No:B-hotel-parking ,:O that's:O all:O ,:O thanks:O .:O
+find_hotel:O Could:O you:O help:O me:O find:O a:O guesthouse:B-hotel-type on:O the:O west:B-hotel-area side:O ?:O
+find_hotel:O Does:O either:O of:O those:O offer:O free:O parking:O ?:O
+book_hotel:O Let's:O go:O with:O Finches:B-hotel-name .:O Can:O you:O book:O me:O a:O room:O for:O 2:B-hotel-bookpeople people:O on:O Saturday:B-hotel-bookday ?:O We'd:O like:O to:O stat:O for:O 4:B-hotel-bookstay nights:O .:O
+book_hotel:O Just:O the:O reference:O number:O thanks:O
+NONE:O That:O is:O all:O !:O Thank:O you:O !:O
+find_taxi:O Hello:O .:O I:O would:O like:O for:O a:O taxi:O to:O bring:O me:O to:O the:O cow:B-taxi-destination pizza:I-taxi-destination kitchen:I-taxi-destination and:I-taxi-destination bar:I-taxi-destination by:O 04:30:B-taxi-arriveby please:O
+find_taxi:O I'm:O traveling:O from:O leverton:B-taxi-departure house:I-taxi-departure .:O
+NONE:O Ok:O ,:O thank:O you:O very:O much:O for:O your:O help:O .:O
+find_train:O I:O am:O looking:O for:O a:O train:O leaving:O London:B-train-departure Kings:I-train-departure Cross:I-train-departure and:O arriving:O by:O 14:30:B-train-arriveby .:O
+find_train:O I:O am:O leaving:O from:O london:B-train-departure kings:I-train-departure cross:I-train-departure and:O I'd:O like:O to:O leave:O on:O thursday:B-train-day .:O
+find_train:O I'm:O going:O to:O Cambridge:B-train-destination
+book_train:O yes:O please:O book:O me:O something:O around:O 10:B-train-leaveat for:O 7:B-train-bookpeople people:O
+NONE:O great:O ,:O that's:O all:O ,:O see:O you:O !:O
+find_taxi:O I'd:O like:O a:O taxi:O please:O .:O I'll:O be:O wanting:O it:O to:O leave:O after:O 15:45:B-taxi-arriveby
+find_taxi:O I'm:O coming:O from:O the:B-taxi-departure gandhi:I-taxi-departure .:O
+find_taxi:O I'll:O be:O going:O to:O adc:B-taxi-destination theatre:I-taxi-destination .:O
+find_taxi:O I:O would:O like:O to:O leave:O some:O time:O after:B-taxi-leaveat 15:45:I-taxi-leaveat ,:O please:O .:O
+NONE:O No:O .:O That's:O it:O thanks:O !:O
+find_taxi:O I:O need:O a:O tax:O to:O curry:B-taxi-destination garden:I-taxi-destination .:O
+find_taxi:O I:O need:O to:O arrive:O by:O 19:00:B-taxi-arriveby .:O
+find_taxi:O i:O need:O to:O leave:O from:O archway:B-taxi-departure house:I-taxi-departure .:O
+find_taxi:O I:O would:O like:O to:O leave:O archway:B-taxi-departure house:I-taxi-departure in:O time:O to:O arrive:O at:O curry:B-taxi-destination garden:I-taxi-destination by:O 19:00:B-taxi-arriveby .:O
+NONE:O Thank:O you:O that's:O all:O I:O needed:O .:O
+NONE:O That's:O all:O I:O need:O .:O Thank:O you:O .:O
+find_restaurant:O Could:O you:O give:O me:O information:O about:O a:O restaurant:O called:O panahar:B-restaurant-name ?:O
+book_restaurant:O Could:O you:O book:O a:O table:O for:O me:O there:O on:O Friday:B-restaurant-bookday ?:O
+book_restaurant:O There:O will:O be:O 4:B-restaurant-bookpeople of:O us:O and:O we:O would:O like:O to:O eat:O at:O 11:00:B-restaurant-booktime .:O
+book_restaurant:O Sure:O ,:O how:O about:O 10:00:B-restaurant-booktime ?:O
+NONE:O No:O thank:O you:O .:O Have:O a:O great:O day:O !:O
+find_train:O I'd:O like:O a:O train:O to:O Cambridge:B-train-destination that:O arrives:O by:O 19:30:B-train-arriveby .:O
+find_train:O I'm:O departing:O from:O Ely:B-train-departure .:O
+find_train:O Yes:O ,:O Wednesday:O .:O I:O also:O need:O the:O departure:O time:O and:O price:O ,:O please:O .:O
+NONE:O Okay:O that:O is:O all:O I:O need:O to:O know:O for:O now:O .:O
+find_taxi:O I:O need:O a:O taxi:O leaving:O after:O 21:00:B-taxi-leaveat .:O
+find_taxi:O I:O am:O leaving:O from:O scudamores:B-taxi-departure punting:I-taxi-departure co:I-taxi-departure and:O want:O to:O go:O to:O the:B-taxi-destination slug:I-taxi-destination and:I-taxi-destination lettuce:I-taxi-destination .:O
+NONE:O Ok:O ,:O thank:O you:O have:O a:O great:O day:O !:O
+find_taxi:O I:O need:O a:O taxi:O to:O pick:O me:O up:O from:O the:B-taxi-departure fez:I-taxi-departure club:I-taxi-departure .:O Can:O you:O help:O ?:O
+find_taxi:O Yes:O ,:O I:O need:O to:O arrive:O by:O 18:45:B-taxi-arriveby .:O
+find_taxi:O I:O would:O like:O to:O be:O taken:O to:O tenpin:B-taxi-destination
+NONE:O Wonderful:O ,:O thanks:O very:O much:O !:O
+NONE:O No:O ,:O that:O is:O it:O .:O Thank:O you:O so:O much:O .:O
+find_taxi:O I:O need:O a:O taxi:O to:O Anatoilia:B-taxi-destination .:O
+find_taxi:O I'm:O be:O leaving:O from:O kymmoy:B-taxi-departure .:O
+find_taxi:O I:O need:O to:O leave:O after:O 22:00:B-taxi-leaveat .:O
+NONE:O That:O should:O do:O it:O ,:O thanks:O so:O much:O for:O your:O help:O .:O Bye:O !:O
+NONE:O I:O need:O to:O book:O a:O taxi:O to:O arrive:O at:O Ruskin:O Gallery:O by:O 21:45:O .:O
+find_attraction:O I:O am:O going:O to:O be:O leaving:O from:O the:O Ruskin:B-attraction-name gallery:I-attraction-name .:O
+NONE:O I:O am:O leaving:O from:O Ruskin:B-attraction-name Gallery:I-attraction-name .:O
+NONE:O I:O will:O be:O going:O to:O magdalene:O college:O .:O
+NONE:O Great:O ,:O thanks:O .:O Can:O you:O confirm:O the:O time:O on:O that:O car:O ?:O I:O just:O want:O to:O make:O sure:O I:O arrive:O at:O Magdalene:O College:O by:O 21:45:O .:O
+find_taxi:O I'd:O like:O to:O arrange:O for:O a:O taxi:O please:O
+find_taxi:O I'm:O leaving:O from:O jinling:B-taxi-departure noodle:I-taxi-departure bar:I-taxi-departure and:O going:O to:O dojo:B-taxi-destination noodle:I-taxi-destination bar:I-taxi-destination .:O I'm:O a:O noodle:O bar:O crawl:O !:O
+find_taxi:O It:O should:O leave:O after:O 11:15:B-taxi-leaveat .:O
+NONE:O Thanks:O for:O your:O help:O !:O Take:O care:O !:O
+find_restaurant:O I:O am:O looking:O for:O a:O place:O to:O dine:O .:O The:O restaurant:O should:O be:O in:O the:O expensive:B-restaurant-pricerange price:O range:O and:O should:O serve:O british:B-restaurant-food food:O .:O
+find_restaurant:O That:O sounds:O interesting:O .:O What:O area:O is:O the:O restaurant:O in:O ?:O
+find_restaurant:O Thanks:O .:O What:O is:O the:O postcode:O ,:O address:O ,:O and:O area:O ?:O
+NONE:O No:O thanks:O .:O I:O just:O needed:O some:O info:O on:O it:O .:O That's:O all:O now:O .:O
+find_taxi:O Yes:O ,:O I'd:O like:O to:O book:O a:O taxi:O please:O !:O
+find_taxi:O I'm:O going:O to:O downing:B-taxi-destination college:I-taxi-destination from:O broughton:B-taxi-departure house:I-taxi-departure gallery:I-taxi-departure .:O I:O need:O it:O after:O 22:30:B-taxi-arriveby .:O
+NONE:O That's:O all:O I:O needed:O .:O Thank:O you:O !:O
+find_train:O I:O need:O a:O train:O that:O is:O leaving:O on:O sunday:B-train-day and:O leaving:O after:O 13:30:B-train-leaveat .:O
+find_train:O I:O need:O to:O leave:O Cambridge:B-train-departure after:O 13:30:B-train-leaveat to:O go:O to:O Stevenage:B-train-destination .:O
+book_train:O That:O really:O shouldn't:O matter:O ,:O I:O just:O need:O the:O booking:O for:O six:O .:O
+NONE:O Thanks:O ,:O that's:O all:O I:O need:O .:O Have:O a:O nice:O day:O .:O
+find_restaurant:O Can:O you:O help:O me:O find:O a:O restaurant:O that:O serves:O greek:B-restaurant-food food:O and:O is:O expensive:B-restaurant-pricerange ?:O
+find_restaurant:O Do:O you:O have:O any:O Indian:B-restaurant-food restaurants:O ?:O
+find_restaurant:O I:O do:O not:O .:O Is:O there:O one:O you:O can:O recommend:O ?:O
+find_restaurant:O Any:O part:O of:O town:O is:O fine:O ,:O I:O just:O need:O the:O address:O and:O postcode:O of:O one:O you'd:O recommend:O .:O
+NONE:O No:O ,:O not:O yet:O ,:O I:O just:O wanted:O the:O info:O .:O Thanks:O .:O
+find_restaurant:O I'm:O looking:O for:O an:O afghan:B-restaurant-food restaurant:O in:O the:O north:B-restaurant-area .:O
+find_restaurant:O How:O about:O a:O European:B-restaurant-food food:O restaurant:O in:O the:O north:B-restaurant-area ,:O instead:O ?:O
+find_restaurant:O Can:O you:O give:O me:O their:O phone:O number:O ,:O address:O and:O price:O range:O ,:O please:O ?:O
+NONE:O Great:O ,:O thank:O you:O for:O the:O help:O .:O
+find_restaurant:O I'd:O like:O to:O find:O a:O place:O to:O dine:O in:O the:O west:B-restaurant-area that:O serves:O modern:B-restaurant-food american:I-restaurant-food food:O .:O
+find_restaurant:O Sure:O ,:O let's:O try:O modern:B-restaurant-food English:I-restaurant-food food:O .:O
+find_restaurant:O Could:O you:O look:O for:O a:O restaurant:O that:O serves:O Thai:B-restaurant-food food:O ?:O
+book_restaurant:O ok.book:O for:O seven:O people:O at:O 1215hrs:B-restaurant-booktime
+book_restaurant:O Make:O the:O reservation:O for:O Thursday:B-restaurant-bookday please:O .:O
+book_restaurant:O How:O about:O 11:15:B-restaurant-booktime on:O Thursday:B-restaurant-bookday ?:O
+NONE:O Great:O ,:O thanks:O for:O your:O help:O .:O
+NONE:O No:O ,:O that's:O all:O I:O need:O thanks:O !:O
+find_restaurant:O I'm:O in:O the:O mood:O for:O swedish:B-restaurant-food food:O ,:O but:O I:O want:O something:O in:O the:O centre:B-restaurant-area of:O town:O .:O
+find_restaurant:O What:O about:O Chinese:B-restaurant-food ?:O
+find_restaurant:O Could:O you:O recommend:O one:O ?:O
+book_restaurant:O Yes:O please:O !:O I'd:O like:O a:O table:O for:O 5:B-restaurant-bookpeople on:O Monday:B-restaurant-bookday at:O 15:15:B-restaurant-booktime .:O
+NONE:O That's:O all:O .:O Thank:O you:O !:O
+find_taxi:O I:O need:O a:O taxi:O to:O leave:O from:O the:O gallery:B-taxi-departure at:I-taxi-departure twelve:I-taxi-departure a:I-taxi-departure high:I-taxi-departure street:I-taxi-departure to:O arrive:O by:O 15:30:B-taxi-arriveby
+find_taxi:O I'm:O going:O to:O the:O nirala:B-taxi-destination .:O
+NONE:O Nope:O that's:O it:O .:O Thanks:O !:O
+find_taxi:O Can:O you:O help:O ?:O I'm:O in:O need:O of:O a:O taxi:O .:O I'm:O trying:O to:O get:O from:O hobsons:B-taxi-departure house:I-taxi-departure to:O royal:B-taxi-destination spice:I-taxi-destination .:O
+find_taxi:O I:O want:O to:O leave:O after:O 18:30:B-taxi-leaveat please:O
+NONE:O Great:O ,:O thank:O you:O !:O That's:O all:O I:O need:O today:O
+find_restaurant:O I:O am:O looking:O for:O a:O place:O to:O dine:O .:O The:O restaurant:O should:O be:O in:O the:O cheap:B-restaurant-pricerange price:O range:O and:O should:O serve:O chinese:B-restaurant-food food:O
+find_restaurant:O Which:O area:O is:O it:O in:O ?:O
+NONE:O Thanks:O for:O you:O help:O .:O That:O is:O all:O I:O need:O for:O now:O .:O
+find_taxi:O I:O need:O to:O book:O a:O taxi:O to:O come:O to:O Express:B-taxi-departure by:I-taxi-departure Holiday:I-taxi-departure Inn:I-taxi-departure Cambridge:I-taxi-departure to:O take:O me:O to:O The:B-taxi-destination Oak:I-taxi-destination Bistro:I-taxi-destination .:O
+find_taxi:O I:O want:O to:O leave:O by:O 07:30:B-taxi-leaveat .:O
+find_attraction:O Can:O you:O find:O me:O a:O cinema:B-attraction-type in:O town:O that:O I:O can:O go:O to:O ?:O
+find_attraction:O Either:O area:O is:O fine:O .:O Can:O you:O pick:O one:O for:O me:O and:O let:O me:O know:O their:O address:O ?:O
+find_attraction:O Do:O you:O know:O the:O entrance:O fee:O ?:O
+find_attraction:O Yes:O ,:O can:O you:O tell:O me:O their:O address:O please:O ?:O
+NONE:O So:O that:O would:O be:O all:O .:O Thanks:O .:O
+find_restaurant:O I'm:O looking:O for:O a:O modern:B-restaurant-food European:I-restaurant-food restaurant:O near:O the:O centre:B-restaurant-area ,:O could:O you:O hook:O me:O up:O ?:O
+find_restaurant:O I:O would:O like:O moderate:B-restaurant-pricerange price:O range:O please:O .:O
+book_restaurant:O Yes:O could:O you:O book:O me:O one:O seat:O at:O 17:45:B-restaurant-booktime on:O a:O Monday:B-restaurant-bookday ?:O
+book_restaurant:O Lets:O try:O a:O table:O for:O 1:B-restaurant-bookpeople on:O Monday:B-restaurant-bookday at:O 16:45:B-restaurant-booktime instead:O .:O
+NONE:O Fantastic:O .:O That's:O all:O I:O need:O ,:O thank:O you:O !:O
+find_taxi:O I:O am:O wanting:O to:O book:O a:O taxi:O to:O go:O to:O Cherry:B-taxi-destination Hinton:I-taxi-destination Water:I-taxi-destination Play:I-taxi-destination .:O I:O want:O to:O make:O sure:O I:O arrive:O by:O 10:00:B-taxi-arriveby .:O
+find_taxi:O I:O would:O like:O to:O be:O picked:O up:O from:O golden:B-taxi-departure house:I-taxi-departure .:O
+NONE:O Sounds:O perfect:O .:O Thank:O you:O so:O much:O .:O I:O won't:O need:O anything:O else:O right:O now:O .:O Bye:O .:O
+find_restaurant:O Hi:O ,:O I'm:O looking:O for:O a:O restaurant:O called:O pizza:B-restaurant-name hut:I-restaurant-name cherry:I-restaurant-name hinton:O ,:O can:O you:O help:O me:O find:O it:O ?:O
+find_restaurant:O No:O ,:O I:O wanted:O to:O make:O a:O reservation:O there:O .:O
+book_restaurant:O Just:O one:O person:O on:O Sunday:B-restaurant-bookday at:O 19:45:B-restaurant-booktime
+NONE:O no:O that:O will:O be:O all:O ,:O thank:O you:O .:O
+find_hotel:O I'm:O looking:O for:O a:O guesthouse:B-hotel-type to:O stay:O in:O on:O the:O east:B-hotel-area side:O .:O You:O know:O of:O any:O ?:O
+find_hotel:O The:O guesthouse:B-hotel-type should:O be:O expensive:B-hotel-pricerange .:O
+find_hotel:O Okay:O ,:O I:O guess:O I:O could:O go:O for:O something:O different:O .:O Do:O you:O have:O anything:O on:O the:O cheap:B-hotel-pricerange side:O ?:O
+find_hotel:O I:O actually:O want:O something:O in:O the:O expensive:B-hotel-pricerange price:O range:O ,:O sorry:O .:O
+find_hotel:O I'm:O sorry:O for:O changing:O my:O mind:O again:O but:O cheap:B-hotel-pricerange is:O fine:O .:O You:O had:O mentioned:O Autumn:B-hotel-name House:I-hotel-name .:O What:O is:O their:O address:O ,:O please:O .:O
+find_hotel:O First:O I:O need:O the:O address:O please:O .:O Also:O ,:O can:O you:O tell:O me:O if:O they:O have:O free:O parking:O and:O wifi:O ?:O
+NONE:O No:O that:O is:O it:O ,:O thanks:O .:O
+find_hotel:O Would:O you:O happen:O to:O have:O information:O on:O the:O Lovell:B-hotel-name Lodge:I-hotel-name ?:O
+find_hotel:O Can:O I:O get:O the:O phone:O number:O and:O address:O please:O ?:O
+NONE:O No:O ,:O thank:O you:O .:O That's:O all:O I:O need:O .:O
+find_attraction:O Are:O there:O any:O entertainment:B-attraction-type spots:O in:O the:O town:O centre:B-attraction-area ?:O
+find_attraction:O Do:O you:O have:O any:O colleges:O in:O the:O centre:B-attraction-area area:O ?:O
+find_attraction:O That:O sounds:O perfect:O .:O Can:O you:O tell:O me:O their:O address:O and:O postcode:O ,:O please:O ?:O
+NONE:O Great:O ,:O thank:O you:O !:O
+NONE:O It:O is:O .:O Thanks:O again:O .:O
+find_attraction:O I:O want:O to:O tour:O a:O college:B-attraction-type in:O the:O centre:B-attraction-area of:O town:O .:O What's:O available:O ?:O
+find_attraction:O Entrance:O fee:O is:O not:O an:O issue:O .:O
+find_attraction:O Can:O I:O have:O the:O postcode:O and:O address:O for:O that:O college:B-attraction-type ?:O
+NONE:O No:O ,:O that's:O it:O .:O Thanks:O .:O
+find_hotel:O Can:O you:O look:O up:O a:O hotel:O called:O Cityroomz:B-hotel-name ?:O
+book_hotel:O I:O need:O to:O make:O a:O reservation:O for:O 4:B-hotel-bookstay nights:O starting:O from:O Tuesday:B-hotel-bookday ,:O for:O 6:B-hotel-bookpeople people:O .:O
+NONE:O No:O ,:O that's:O it:O .:O Bye:O now:O !:O
+find_taxi:O Can:O you:O help:O me:O find:O a:O taxi:O to:O old:B-taxi-destination schools:I-taxi-destination ?:O
+find_taxi:O I'm:O departing:O from:O thanh:B-taxi-departure binh:I-taxi-departure .:O
+find_taxi:O I:O need:O to:O get:O there:O by:O 11:15:B-taxi-arriveby .:O
+find_taxi:O No:O thanks:O .:O The:O taxi:O was:O the:O only:O reason:O for:O contacting:O you:O .:O Goodbye:O .:O
+find_hotel:O Yes:O ,:O can:O you:O give:O me:O the:O information:O on:O the:O Huntingdon:B-hotel-name Marriott:I-hotel-name Hotel:I-hotel-name ?:O
+book_hotel:O Yes:O please:O ,:O I:O need:O a:O reservation:O for:O 6:B-hotel-bookpeople people:O for:O 5:B-hotel-bookstay nights:O starting:O on:O Saturday:B-hotel-bookday .:O
+book_hotel:O How:O about:O for:O 1:B-hotel-bookstay night:O ?:O If:O that:O works:O ,:O I'll:O need:O a:O reference:O number:O of:O course:O .:O
+NONE:O Thank:O you:O so:O much:O .:O Goodbye:O .:O
+find_hotel:O Hello:O .:O I:O am:O needing:O some:O help:O finding:O a:O cheap:B-hotel-pricerange room:O .:O
+find_hotel:O Yes:B-hotel-internet ,:O I:O would:O like:O it:O to:O be:O a:O guesthouse:B-hotel-type and:O I:O need:O free:O wifi:O !:O
+find_hotel:O How:O about:O something:O that:O is:O 4-star:O rated:O ?:O
+find_hotel:O Not:O really:O .:O Anywhere:O will:O do:O .:O
+find_hotel:O No:O ,:O that's:O not:O needed:O .:O Just:O give:O me:O the:O name:O address:O and:O phone:O number:O of:O one:O of:O these:O hotels:O .:O
+NONE:O awesome:O ,:O thanks:O for:O assistance:O !:O
+find_restaurant:O I'm:O looking:O for:O an:O expensive:B-restaurant-pricerange place:O to:O eat:O located:O in:O centre:B-restaurant-area of:O town:O .:O Can:O you:O help:O ?:O
+find_restaurant:O You:O know:O ,:O I'd:O really:O love:O some:O latin:B-restaurant-food american:I-restaurant-food food:O .:O How:O about:O that:O ?:O
+find_restaurant:O Sure:O ,:O I:O like:O Indian:B-restaurant-food food:O .:O
+book_restaurant:O Yes:O please:O .:O Book:O one:O for:O Saturday:B-restaurant-bookday at:O 19:45:B-restaurant-booktime .:O There:O will:O be:O 3:B-restaurant-bookpeople people:O .:O
+book_restaurant:O Let's:O try:O an:B-restaurant-booktime hour:I-restaurant-booktime earlier:I-restaurant-booktime .:O
+book_restaurant:O No:O that's:O all:O I:O needed:O .:O Thank:O you:O !:O
+find_taxi:O Hi:O ,:O I:O need:O to:O book:O a:O taxi:O ,:O please:O ?:O I:O need:O to:O leave:O sometime:O after:O 10:30:B-taxi-leaveat .:O
+find_taxi:O I:O would:O like:O to:O be:O picked:O up:O at:O the:O cambridge:B-taxi-departure belfy:I-taxi-departure and:O go:O to:O the:B-taxi-destination cambridge:I-taxi-destination shop:I-taxi-destination .:O
+find_taxi:O The:O chop:B-taxi-destination house:I-taxi-destination .:O
+find_taxi:O I'm:O sorry:O ,:O I:O need:O to:O leave:O after:O 10:30:B-taxi-leaveat ,:O could:O you:O change:O the:O reservation:O ?:O
+NONE:O That's:O perfect:O .:O Thank:O you:O for:O all:O of:O your:O help:O .:O
+find_train:O Hi:O there:O ,:O I'm:O looking:O for:O a:O train:O going:O to:O cambridge:B-train-destination .:O
+find_train:O As:O I:O said:O ,:O I:O am:O heading:O to:O Cambridge:B-train-destination .:O
+find_train:O I:O need:O to:O arrive:O by:O 14:00:B-train-arriveby
+find_train:O Yes:O ,:O what:O is:O the:O ID:O ?:O
+find_train:O Oh:O ,:O I'll:O be:O departing:O from:O bishops:B-train-departure stortford:I-train-departure ,:O yes:O ,:O thanks:O .:O
+find_train:O Yes:O please:O .:O I:O would:O like:O to:O travel:O on:O Tuesday:B-train-day
+book_train:O Yes:O ,:O please:O book:O for:O 2:B-train-bookpeople people.:O /:O
+NONE:O No:O ,:O thank:O you:O .:O That's:O all:O .:O Thanks:O !:O
+NONE:O Have:O a:O great:O day:O .:O
+find_train:O I:O need:O to:O what:O trains:O are:O leaving:O Friday:B-train-day evening:O .:O
+find_train:O I'm:O leaving:O from:O Peterborough:B-train-departure .:O
+find_train:O Not:O really:O .:O I:O want:O to:O get:O there:O by:O 20:45:B-train-arriveby though:O .:O
+find_train:O Yes:O ,:O that's:O perfect:O .:O What:O is:O the:O price:O ?:O
+NONE:O Thank:O you:O very:O much:O .:O That:O is:O all:O for:O today:O .:O
+NONE:O Yes:O I:O am:O sure:O .:O Thank:O you:O .:O
+find_hotel:O I:O need:O a:O hotel:O on:O the:O west:B-hotel-area side:O .:O
+find_hotel:O Can:O you:O tell:O which:O ones:O have:O 4:B-hotel-stars stars:O and:O would:O be:O moderately:O priced:O ?:O
+find_hotel:O Yes:B-hotel-parking ,:O how:O about:O moderately:O priced:O places:O to:O stay:O with:O 4:B-hotel-stars stars:O in:O the:O North:B-hotel-area ?:O I:O also:O need:O free:O parking:O .:O
+find_hotel:O That:O sounds:O fine:O .:O Do:O they:O have:O internet:O access:O ?:O
+NONE:O Not:O right:O now:O .:O In:O fact:O ,:O that's:O all:O the:O info:O I:O needed:O .:O Thanks:O for:O your:O help:O !:O
+find_taxi:O I:O am:O needing:O a:O taxi:O at:O the:O saffron:B-taxi-departure brasserie:I-taxi-departure after:O 14:45:B-taxi-leaveat .:O Can:O you:O help:O me:O with:O that:O ?:O
+find_taxi:O The:O Good:B-taxi-destination Luck:I-taxi-destination Chinese:O Food:O Takeaway:O please:O .:O
+NONE:O Great:O .:O Thank:O you:O very:O much:O for:O your:O help:O today:O .:O
+find_taxi:O I:O hope:O your:O day:O goes:O well:O too:O !:O
+find_restaurant:O Hi:O !:O I:O need:O to:O find:O the:O restaurant:O Pizza:B-restaurant-name Express:I-restaurant-name Fen:I-restaurant-name Ditton:I-restaurant-name .:O
+find_restaurant:O Yes:O please:O ,:O also:O what:O type:O of:O food:O do:O they:O serve:O ?:O
+NONE:O No:O that:O is:O all:O I:O need:O bye:O bye:O .:O
+find_restaurant:O Hi:O ,:O I:O am:O looking:O for:O an:O expensive:B-restaurant-pricerange restaurant:O in:O the:O east:B-restaurant-area .:O
+find_restaurant:O That:O won't:O be:O necessary:O .:O Can:O you:O just:O give:O me:O their:O address:O and:O phone:O ?:O
+NONE:O Nope:O .:O I'm:O all:O set:O .:O Thanks:O again:O .:O
+find_restaurant:O I:O feel:O like:O having:O Italian:B-restaurant-food for:O dinner:O .:O Are:O there:O any:O cheap:B-restaurant-pricerange restaurants:O with:O good:O Italian:B-restaurant-food in:O town:O ?:O
+find_restaurant:O Sounds:O great:O .:O Can:O I:O get:O their:O number:O ?:O
+NONE:O No:O I:O think:O that's:O all:O I:O need:O .:O Thanks:O for:O the:O help:O !:O
+find_hotel:O I'm:O looking:O for:O a:O hotel:B-hotel-type with:O free:O parking:O .:O
+find_hotel:O Area:O doesn't:O matter:O ,:O but:O I:O would:O like:O to:O keep:O the:O price:O moderate:B-hotel-pricerange .:O
+find_hotel:O Do:O either:O of:O them:O have:O a:O 4:O star:O rating:O ?:O
+find_hotel:O I:O would:O like:O a:O four:O star:O hotel:O in:O the:O moderate:B-hotel-pricerange price:O range:O .:O I:O do:O need:O free:O parking:O .:O
+book_hotel:O I:O think:O that:O should:O be:O fine:O .:O Can:O I:O book:O one:O for:O Wednesday:B-hotel-bookday for:O 4:B-hotel-stars nights:O ?:O There:O will:O be:O 4:B-hotel-stars of:O us:O .:O
+book_hotel:O It:O doesn't:O matter:O to:O me:O .:O
+book_hotel:O No:O that:O will:O be:O all:O ,:O Thanks:O !:O
+find_restaurant:O I:O am:O looking:O for:O a:O restaurant:O .:O The:O restaurant:O should:O serve:O world:B-restaurant-food food:O and:O should:O be:O in:O the:O centre:B-restaurant-area
+find_restaurant:O What:O expensive:B-restaurant-pricerange restaurants:O are:O there:O ?:O
+find_restaurant:O No:O .:O Try:O looking:O for:O a:O restaurant:O that:O serves:O Korean:B-restaurant-food food:O .:O
+book_restaurant:O Yes:O ,:O a:O table:O for:O two:O .:O
+book_restaurant:O Thank:O you:O ,:O I:O need:O a:O reservation:O for:O 2:B-restaurant-bookpeople people:O at:O 13:15:B-restaurant-booktime on:O Monday:B-restaurant-bookday .:O
+NONE:O No:O that:O was:O everything:O .:O Thanks:O
+find_hotel:O I:O am:O looking:O for:O a:O place:O to:O stay:O .:O I:O need:O a:O 2:B-hotel-stars star:O hotel:B-hotel-type with:O free:O parking:O .:O
+find_hotel:O No:O preference:O there:O .:O But:O I'd:O like:O it:O to:O be:O in:O the:O moderate:B-hotel-pricerange range:O please:O
+find_hotel:O Does:O the:O Ashley:O hotel:B-hotel-type include:O free:O wifi:O ?:O
+find_hotel:O Sure:O ,:O sounds:O good:O .:O What's:O the:O address:O ?:O
+NONE:O Great:O ,:O that's:O all:O I:O needed:O .:O Thanks:O
+find_train:O I:O need:O a:O train:O from:O London:B-train-departure Kings:I-train-departure Cross:I-train-departure to:O Cambridge:B-train-destination .:O
+find_train:O I:O want:O to:O leave:O on:O sunday:B-train-day ,:O and:O I:O want:O to:O leave:O after:O 0930:B-train-leaveat am:O .:O
+book_train:O Yes:O .:O I:O need:O 3:B-train-bookpeople tickets:O and:O the:O reference:O number:O .:O
+NONE:O Thanks:O ,:O that's:O all:O I:O need:O .:O Have:O a:O nice:O day:O .:O
+find_restaurant:O Hi:O !:O Are:O there:O any:O expensive:B-restaurant-pricerange Greek:B-restaurant-food restaurants:O in:O town:O ?:O
+find_restaurant:O Are:O there:O any:O expensive:B-restaurant-pricerange French:B-restaurant-food restaurants:O in:O town:O ?:O
+book_restaurant:O I'll:O take:O a:O table:O for:O 1:B-restaurant-bookpeople at:O 17:30:B-restaurant-booktime sunday:B-restaurant-bookday at:O cote:B-restaurant-name .:O
+book_restaurant:O Can:O I:O get:O a:O table:O at:O 16:30:B-restaurant-booktime instead:O ?:O
+NONE:O Excellent:O ,:O thank:O you:O !:O
+NONE:O No:O ,:O that:O will:O be:O all:O .:O Thanks:O again:O .:O Bye:O .:O
+find_hotel:O Hi:O ,:O I'm:O looking:O for:O a:O hotel:B-hotel-type with:O free:O wifi:O that:O is:O moderately:O priced:O .:O
+find_hotel:O I:O would:O like:O to:O stay:O at:O a:O guesthouse:B-hotel-type in:O the:O centre:B-hotel-area please:O
+find_hotel:O Hmm:O ,:O well:O that:O isn't:O good:O .:O Oh:O well:O ,:O how:O about:O trying:O if:O there:O is:O a:O guesthouse:B-hotel-type thats:O cheap:B-hotel-pricerange then:O .:O I:O suppose:O it:O will:O have:O to:O do:O .:O
+book_hotel:O Yes:B-hotel-internet ,:O please:O ,:O for:O four:O people:O on:O Thursday:B-hotel-bookday .:O
+book_hotel:O I:O need:O five:O nights:O .:O And:O I:O need:O the:O reference:O number:O ,:O please:O .:O
+NONE:O Thank:O you:O that:O will:O do:O ,:O cheers:O .:O
+find_restaurant:O I'm:O looking:O for:O a:O restaurant:O serving:O barbeque:B-restaurant-food in:O the:O centre:B-restaurant-area of:O town:O .:O
+find_restaurant:O Can:O you:O find:O a:O restaurant:O that:O has:O asian:B-restaurant-food or:I-restaurant-food oriental:I-restaurant-food food:O ?:O
+find_restaurant:O Could:O you:O give:O me:O their:O postcode:O please:O ?:O
+NONE:O Thanks:O all:O I:O need:O today:O .:O Thank:O you:O .:O
+find_restaurant:O I:O need:O to:O find:O an:O Italian:B-restaurant-food place:O to:O eat:O .:O Hopefully:O with:O moderate:B-restaurant-pricerange prices:O .:O
+find_restaurant:O No:O ,:O just:O pick:O me:O one:O you:O think:O would:O be:O good:O to:O go:O to:O and:O please:O provide:O me:O with:O an:O address:O to:O that:O location:O .:O
+find_restaurant:O Thanks:O so:O much:O for:O the:O info:O .:O I:O will:O pay:O them:O a:O visit:O .:O Have:O a:O nice:O day:O .:O
+find_hotel:O Hi:O .:O I:O will:O be:O attending:O a:O conference:O in:O the:O eastern:O part:O of:O town:O and:O wondered:O if:O you:O could:O help:O me:O find:O an:O available:O room:O .:O
+find_hotel:O I:O prefer:O a:O guesthouse:B-hotel-type .:O Do:O you:O have:O any:O expensive:B-hotel-pricerange ones:O ?:O
+find_hotel:O How:O about:O a:O hotel:O in:O the:O cheap:B-hotel-pricerange price:O range:O ?:O
+find_hotel:O Which:O one:O would:O you:O recommend:O ?:O
+find_hotel:O That:O sounds:O alright:O .:O Do:O they:O have:O free:O parking:O ?:O
+find_hotel:O I:O don't:O need:O a:O room:O right:O now:O ,:O but:O does:O the:O Allenbell:B-hotel-name have:O free:O wifi:O ?:O And:O what's:O their:O postcode:O ?:O
+NONE:O Thanks:O so:O much:O for:O your:O help:O .:O
+find_taxi:O Hi:O ,:O I:O need:O a:O taxi:O to:O gourmet:B-taxi-destination burger:I-taxi-destination kitchen:I-taxi-destination going:O from:O hamilton:B-taxi-departure lodge:I-taxi-departure !:O
+find_taxi:O I:O want:O to:O leave:O after:O 4:00:B-taxi-leaveat .:O
+find_taxi:O It:O doesn't:O matter:O ,:O I:O just:O want:O to:O leave:O after:O 4:00:B-taxi-leaveat .:O
+NONE:O Thank:O you:O so:O very:O much:O .:O I:O am:O finished:O .:O
+find_restaurant:O I:O am:O looking:O for:O a:O restaurant:O that:O is:O moderately:O priced:O and:O served:O British:B-restaurant-food food:O .:O
+book_restaurant:O How:O about:O the:O center:O ?:O I:O need:O a:O reservation:O for:O 8:B-restaurant-bookpeople people:O at:O 14:15:B-restaurant-booktime on:O a:O Friday:B-restaurant-bookday .:O
+book_restaurant:O Yes:O ,:O that:O would:O be:O fine:O .:O Is:O there:O a:O table:O for:O 8:B-restaurant-bookpeople available:O ?:O
+book_restaurant:O Friday:B-restaurant-bookday at:O 14:15:B-restaurant-booktime .:O
+book_restaurant:O Can:O you:O try:O to:O book:O it:O for:O 13:15:B-restaurant-booktime ?:O
+NONE:O No:O ,:O that's:O all:O I:O needed:O .:O Thanks:O for:O your:O help:O !:O
+find_taxi:O Please:O book:O me:O a:O taxi:O to:O come:O to:O Rajmahal:B-taxi-departure by:O 22:30:B-taxi-arriveby .:O
+find_taxi:O I:O want:O to:O depart:O from:O Rajmahal:B-taxi-departure ,:O not:O go:O to:O there:O .:O
+find_taxi:O I'll:O be:O heading:O to:O restaurant:B-taxi-destination two:I-taxi-destination two:I-taxi-destination
+find_attraction:O Hi:O ,:O I'm:O looking:O to:O visit:O a:O park:B-attraction-type in:O the:O east:B-attraction-area part:O of:O town:O ,:O do:O you:O have:O any:O recommendations:O ?:O
+find_attraction:O Yes:O please:O .:O I:O would:O love:O the:O phone:O number:O .:O
+find_attraction:O No:O ,:O I:O just:O need:O the:O phone:O number:O .:O Thanks:O so:O much:O .:O Have:O a:O good:O day:O .:O
+find_restaurant:O I:O need:O a:O restaurant:O in:O the:O Centre:B-restaurant-area moderate:B-restaurant-pricerange priced:O
+find_restaurant:O Does:O it:O serve:O Chinese:B-restaurant-food food:O ?:O
+find_restaurant:O What:O are:O they:O ?:O
+book_restaurant:O I:O would:O like:O a:O table:O for:O 8:B-restaurant-bookpeople at:O 16:30:B-restaurant-booktime wednesday:B-restaurant-bookday at:O Shanghi:B-restaurant-name Family:I-restaurant-name Restaurant:I-restaurant-name please:O .:O
+book_restaurant:O Yes:O .:O I:O could:O eat:O at:O 15:30:B-restaurant-booktime perhaps:O .:O
+NONE:O No:O ,:O that's:O all:O I:O need:O .:O Thanks:O for:O the:O help:O .:O
+find_restaurant:O I:O am:O looking:O for:O a:O restaurant:O that:O is:O in:O the:O centre:B-restaurant-area of:O town:O and:O serves:O light:B-restaurant-food bites:I-restaurant-food food:O .:O
+find_restaurant:O Do:O you:O have:O any:O expensive:B-restaurant-pricerange restaurants:O ?:O
+find_restaurant:O Could:O you:O try:O Chinese:B-restaurant-food food:O ,:O instead:O ?:O
+book_restaurant:O That:O sounds:O good:O .:O Can:O you:O book:O a:O table:O for:O 5:B-restaurant-bookpeople people:O at:O 11:15:B-restaurant-booktime on:O wednesday:B-restaurant-bookday please:O ?:O
+book_restaurant:O Yes:O ,:O how:O about:O 10:15:B-restaurant-booktime instead:O .:O I:O also:O need:O the:O reference:O number:O .:O
+NONE:O Thank:O you:O for:O your:O help:O .:O
+NONE:O No:O that:O was:O all:O .:O Thank:O you:O
+find_train:O Hi:O ,:O I'm:O looking:O for:O train:O information:O .:O It:O needs:O to:O leave:O on:O Sunday:B-train-day and:O arrive:O at:O or:O around:O 20:45:B-train-arriveby .:O
+find_train:O The:O train:O should:O go:O to:O leicester:B-train-destination and:O should:O depart:O from:O cambridge:B-train-departure .:O I:O don't:O care:O about:O the:O departure:O time:O .:O
+find_train:O No:O ,:O thanks:O .:O What's:O the:O train:O ID:O ?:O
+find_train:O Thanks:O for:O the:O info:O .:O What:O else:O is:O available:O that:O arrives:O around:O 20:45:B-train-arriveby ?:O
+NONE:O Okay:O thank:O you:O .:O
+find_taxi:O I:O need:O a:O taxi:O leaving:O after:O 10:30:B-taxi-leaveat .:O
+find_taxi:O I:O need:O to:O be:O picked:O up:O from:O Sitar:B-taxi-departure Tandoori:I-taxi-departure and:O I:O am:O going:O to:O Clare:B-taxi-destination Hall:O .:O And:O I:O need:O the:O car:O type:O and:O contact:O number:O .:O
+find_taxi:O I:O Don't:O have:O a:O specific:O time:O just:O need:O to:O leave:O after:O 10:30:B-taxi-leaveat
+NONE:O That's:O great:O .:O Thank:O you:O .:O
+find_taxi:O Book:O me:O a:O taxi:O to:O vue:B-taxi-destination cinema:I-taxi-destination
+find_taxi:O I:O want:O to:O leave:O after:O 08:30:B-taxi-leaveat from:O la:B-taxi-departure mimosa:I-taxi-departure
+find_taxi:O As:O I:O said:O ,:O I:O will:O be:O leaving:O from:O La:O Minosa:O .:O
+NONE:O thanks:O that's:O all:O for:O today:O .:O
+find_hotel:O I:O need:O to:O find:O a:O place:O to:O stay:O in:O the:O east:B-hotel-area part:O of:O town:O with:O free:O parking:O .:O
+find_hotel:O I:O don't:O have:O a:O preferred:O price:O .:O I'm:O looking:O for:O any:O sort:O of:O guesthouse:O there:O and:O absolutely:O require:O wifi:O access:O .:O
+book_hotel:O Yes:B-hotel-parking ,:O please:O book:O it:O for:O 5:B-hotel-bookpeople people:O and:O 3:B-hotel-bookstay nights:O ,:O starting:O from:O Monday:B-hotel-bookday .:O
+NONE:O that:O is:O all:O ,:O thank:O you:O
+find_attraction:O I:O am:O looking:O for:O a:O college:B-attraction-type in:O the:O west:B-attraction-area part:O of:O town:O to:O visit:O .:O
+find_attraction:O I:O think:O I:O would:O like:O to:O visit:O both:O Churchill:O and:O Magdalene:O Colleges:O .:O May:O I:O have:O their:O telephone:O numbers:O please:O ?:O
+NONE:O No:O ,:O thank:O you:O .:O Good:O day:O .:O
+find_attraction:O What:O attractions:O do:O you:O have:O in:O town:O ,:O preferably:O near:O the:O centre:B-attraction-area ?:O
+find_attraction:O Can:O you:O recommend:O a:O college:B-attraction-type in:O the:O centre:B-attraction-area and:O tell:O me:O the:O entrance:O fee:O ?:O
+find_attraction:O Which:O is:O your:O favorite:O ?:O And:O what:O is:O its:O entrance:O fee:O ?:O
+NONE:O Great:O ,:O that's:O all:O I:O need:O .:O Thank:O you:O !:O
+find_taxi:O I:O would:O like:O to:O book:O a:O taxi:O departing:O from:O Hotel:B-taxi-departure du:I-taxi-departure Vin:I-taxi-departure and:I-taxi-departure Bistro:I-taxi-departure leaving:O after:O 22:30:B-taxi-leaveat .:O
+find_taxi:O It:O will:O need:O to:O take:O me:O to:O sitar:B-taxi-destination tandoori:I-taxi-destination
+NONE:O That:O will:O be:O all:O ,:O thank:O you:O .:O
+book_train:O I:O need:O a:O train:O leaving:O from:O london:B-train-departure liverpool:I-train-departure street:I-train-departure on:O friday:B-train-day .:O
+book_train:O Please:O review:O your:O trip:O itinerary:O
+book_train:O How:O long:O is:O the:O travel:O time:O for:O that:O train:O ?:O
+NONE:O Thanks:O ,:O that:O will:O be:O all:O .:O Good:O bye:O .:O
+find_taxi:O I:O need:O a:O taxi:O to:O arrive:O at:O 09:00:B-taxi-arriveby at:O the:O Riverboat:B-taxi-destination Georgina:I-taxi-destination .:O
+find_taxi:O I'm:O leaving:O from:O riverboat:B-taxi-departure georgina:I-taxi-departure .:O
+find_taxi:O My:O destination:O is:O pizza:B-taxi-destination hut:I-taxi-destination city:I-taxi-destination centre:I-taxi-destination .:O
+find_taxi:O Thank:O you:O ,:O may:O I:O have:O the:O contact:O number:O ?:O
+NONE:O Thank:O you:O so:O much:O for:O your:O help:O !:O
+NONE:O That's:O all:O ,:O thank:O you:O !:O
+find_taxi:O I:O want:O a:O taxi:O after:O 24:45:B-taxi-leaveat please:O
+find_taxi:O I:O need:O to:O go:O to:O worth:B-taxi-destination house:I-taxi-destination from:O stevenage:B-taxi-departure train:I-taxi-departure station:I-taxi-departure .:O
+NONE:O No:O thank:O you:O .:O Have:O a:O nice:O day:O !:O
+find_hotel:O Good:O evening:O .:O Can:O you:O help:O me:O find:O a:O guesthouse:B-hotel-type to:O stay:O at:O for:O the:O weekend:O ?:O
+find_hotel:O Does:O it:O have:O free:O WiFi:O ?:O
+find_hotel:O Could:O I:O get:O the:O phone:O number:O for:O them:O .:O
+find_hotel:O Thanks:O .:O Oh:O ,:O I:O forgot:O to:O ask:O ,:O is:O that:O in:O the:O moderate:B-hotel-pricerange price:O range:O ?:O
+NONE:O No:O ,:O I'll:O have:O to:O think:O about:O it:O .:O Thanks:O though:O .:O Bye:O !:O
+find_train:O I:O am:O looking:O for:O a:O train:O that:O leaves:O bishops:B-train-departure stortford:I-train-departure and:O goes:O to:O cambridge:B-train-destination
+find_train:O I:O plan:O to:O leave:O this:O Saturday:B-train-day .:O
+find_train:O I:O would:O like:O to:O arrive:O in:O Cambridge:B-train-destination by:O 8:15:B-train-arriveby .:O
+find_train:O tell:O me:O about:O the:O departure:O and:O travel:O time:O
+NONE:O Not:O yet:O ,:O I:O was:O just:O looking:O for:O information:O .:O Thank:O you:O for:O all:O of:O your:O help:O .:O
+find_taxi:O I'm:O at:O Jesus:B-taxi-departure College:I-taxi-departure and:O I:O need:O at:O taxi:O to:O arrive:O by:O 18:00:B-taxi-arriveby .:O
+find_taxi:O Leaving:O Jesus:B-taxi-departure college:I-taxi-departure .:O
+find_taxi:O The:O next:O stop:O on:O my:O list:O is:O scott:B-taxi-destination polar:I-taxi-destination museum:I-taxi-destination .:O
+NONE:O Thank:O you:O goodbye:O
+find_hotel:O Can:O you:O help:O me:O find:O a:O place:O to:O stay:O ?:O I:O would:O like:O to:O stay:O in:O a:O hotel:B-hotel-type that:O includes:O free:O wifi:O .:O
+find_hotel:O I'd:O like:O south:B-hotel-area and:O expensive:B-hotel-pricerange please:O .:O
+find_hotel:O Could:O you:O please:O tell:O me:O the:O star:O rating:O ?:O I:O also:O need:O the:O address:O and:O phone:O number:O please:O .:O
+NONE:O No:O that's:O all:O .:O Thanks:O .:O
+find_hotel:O I:O am:O looking:O for:O a:O hotel:B-hotel-type with:O a:O three:O star:O rating:O and:O a:O cheap:B-hotel-pricerange price:O
+find_hotel:O Do:O you:O have:O a:O guesthouse:B-hotel-type that:O meets:O my:O requirements:O ?:O
+find_hotel:O I:O would:O like:O a:O guesthouse:B-hotel-type that:O meets:O all:O my:O previous:O criteria:O ,:O except:O now:O I:O want:O one:O in:O the:O moderate:B-hotel-pricerange price:O range:O and:O it:O doesn't:O need:O to:O include:O internet:O .:O
+find_hotel:O Not:O yet:O .:O But:O I:O would:O like:O their:O telephone:O number:O .:O
+NONE:O Thank:O you:O !:O That:O is:O all:O the:O information:O I:O need:O .:O
+find_restaurant:O I:O want:O a:O restaurant:O in:O the:O town:O centre:B-restaurant-area .:O Can:O you:O help:O me:O ?:O
+book_restaurant:O I'm:O looking:O for:O a:O moderately:O priced:O restaurant:O .:O I'm:O looking:O to:O book:O for:O just:O myself:O at:O 14:00:B-restaurant-booktime on:O Friday:B-restaurant-bookday .:O
+book_restaurant:O That:O sounds:O perfect:O .:O Thanks:O for:O your:O help:O !:O
+find_taxi:O I:O would:O like:O to:O book:O a:O taxi:O please:O .:O
+find_taxi:O I:O want:O to:O get:O to:O Anatoilia:B-taxi-destination by:O 09:15:B-taxi-arriveby .:O
+find_taxi:O I:O am:O actually:O leaving:O from:O cote:B-taxi-departure .:O
+NONE:O Those:O were:O my:O concerns:O .:O Thanks:O a:O lot:O .:O Goodbye:O .:O
+find_train:O I:O would:O like:O to:O catch:O a:O train:O leaving:O Cambridge:B-train-departure on:O Sunday:B-train-day .:O
+find_train:O I:O need:O to:O get:O to:O Leicester:B-train-destination on:O Sunday:B-train-day .:O
+find_train:O I:O want:O to:O leave:O after:O 10:15:B-train-leaveat
+NONE:O I:O am:O interested:O in:O that:O one:O ,:O but:O I'm:O not:O ready:O to:O book:O yet:O .:O Thanks:O for:O your:O help:O .:O Bye:O .:O
+find_restaurant:O Is:O there:O a:O moderate:B-restaurant-pricerange restaurant:O in:O the:O centre:B-restaurant-area of:O town:O ?:O
+find_restaurant:O Yes:O ,:O I'd:O like:O a:O moderately:O priced:O restaurant:O .:O
+find_restaurant:O Please:O give:O me:O their:O address:O and:O postcode:O .:O
+NONE:O No:O thank:O you:O .:O You:O have:O helped:O me:O tremendously:O and:O I:O have:O everything:O I:O need:O to:O know:O .:O Thanks:O and:O have:O a:O good:O day:O .:O
+find_restaurant:O I'd:O like:O to:O find:O a:O place:O that:O I:O can:O get:O some:O Northern:B-restaurant-food European:I-restaurant-food food:O .:O
+find_restaurant:O Okay:O ,:O what:O about:O a:O restaurant:O that:O serves:O modern:B-restaurant-food european:I-restaurant-food food:O ?:O
+find_restaurant:O I:O am:O looking:O for:O the:O moderate:B-restaurant-pricerange price:O range:O ,:O the:O area:O doesn't:O matter:O .:O
+find_restaurant:O Does:O that:O serve:O modern:B-restaurant-food european:I-restaurant-food food:O ?:O
+find_restaurant:O What's:O the:O post:O code:O and:O phone:O number:O of:O de:O luca:B-restaurant-name cucina:I-restaurant-name ?:O
+NONE:O That:O is:O all:O .:O Thanks:O for:O you:O help:O .:O
+find_restaurant:O Are:O there:O any:O Chinese:B-restaurant-food restaurants:O on:O the:O north:B-restaurant-area side:O of:O town:O ?:O
+find_restaurant:O Can:O you:O tell:O me:O if:O one:O of:O those:O is:O located:O in:O the:O northern:O part:O of:O town:O ?:O
+find_restaurant:O The:O Golden:O Wok:O is:O fine:O .:O Can:O I:O get:O their:O phone:O number:O ?:O
+find_restaurant:O No:O ,:O I:O just:O needed:O the:O phone:O number:O .:O Thanks:O very:O much:O for:O your:O help:O .:O
+find_hotel:O Hello:O .:O Can:O you:O help:O me:O find:O a:O hotel:B-hotel-type in:O the:O North:B-hotel-area of:O town:O ?:O
+find_hotel:O Are:O either:O of:O them:O moderately:O priced:O ?:O Do:O they:O include:O free:O wifi:O ?:O
+find_hotel:O Could:O you:O book:O me:O into:O one:O of:O the:O 2:O hotels:O please:O .:O
+book_hotel:O But:O I'm:O not:O sure:O from:O what:O you:O said:O -:O is:O the:O Ashley:O priced:O moderately:O ,:O and:O do:O they:O have:O free:O wifi:O ?:O We:O are:O 3:B-hotel-bookpeople people:O and:O we'd:O like:O to:O stay:O 4:B-hotel-bookstay nights:O .:O
+book_hotel:O I:O would:O like:O it:O to:O start:O Sunday:B-hotel-bookday .:O
+NONE:O Thanks:O so:O much:O for:O your:O help:O .:O Bye:O .:O
+find_taxi:O I'd:O like:O to:O book:O a:O taxi:O to:O soul:B-taxi-destination tree:I-taxi-destination nightclub:I-taxi-destination .:O
+find_taxi:O I:O want:O to:O leave:O after:O 15:30:B-taxi-leaveat
+find_taxi:O From:O the:O soul:B-taxi-departure tree:I-taxi-departure nightclub:I-taxi-departure
+find_taxi:O I'm:O sorry:O ,:O I'm:O going:O to:O tenpin:B-taxi-destination .:O
+NONE:O Great:O ,:O thank:O you:O so:O much:O .:O
+NONE:O No:O ,:O that:O will:O be:O all:O .:O Thank:O you:O .:O
+find_train:O I:O am:O looking:O for:O a:O train:O departing:O from:O Stevenage:B-train-departure .:O
+find_train:O Stevenage:B-train-departure ,:O on:O Tuesday:B-train-day .:O
+find_train:O I:O am:O leaving:O at:O 20:30:B-train-leaveat .:O
+book_train:O Let's:O go:O with:O TR9084:O ,:O please:O .:O
+NONE:O No:O that:O is:O all:O thank:O you:O very:O much:O .:O
+NONE:O Yes:O ,:O thank:O you:O very:O much:O .:O
+find_restaurant:O Hi:O !:O Are:O there:O any:O restaurants:O in:O town:O that:O serve:O Scottish:B-restaurant-food food:O ?:O
+find_restaurant:O If:O there:O are:O no:O Scottish:O places:O in:O the:O west:O ,:O what:O about:O expensive:B-restaurant-pricerange places:O to:O eat:O ?:O
+find_restaurant:O What:O about:O Indian:B-restaurant-food restaurants:O ?:O Are:O there:O any:O expensive:B-restaurant-pricerange ones:O in:O the:O west:B-restaurant-area ?:O
+find_restaurant:O Could:O you:O give:O me:O their:O address:O ?:O
+NONE:O Thank:O you:O ,:O That:O is:O all:O I:O will:O need:O today:O .:O
+NONE:O Thanks:O ,:O again:O for:O your:O help:O .:O Goodbye:O .:O
+find_restaurant:O Hi:O -:O I'm:O looking:O for:O an:O expensive:B-restaurant-pricerange restaurant:O on:O the:O east:B-restaurant-area side:O of:O town:O .:O Can:O you:O help:O me:O ?:O
+book_restaurant:O Surprise:O me:O .:O I:O just:O need:O a:O table:O for:O 6:B-restaurant-bookpeople at:O 12:00:B-restaurant-booktime on:O Thursday:B-restaurant-bookday .:O
+book_restaurant:O No:O ,:O that's:O all:O I:O needed:O ,:O thank:O you:O .:O
+find_taxi:O Can:O you:O find:O me:O a:O taxi:O to:O jesus:B-taxi-destination green:I-taxi-destination outdoor:I-taxi-destination pool:I-taxi-destination ?:O I:O need:O to:O be:O there:O by:O 02:15:B-taxi-arriveby .:O
+find_taxi:O Ok:O Thanks:O that's:O all:O I:O need:O !:O
+find_taxi:O I:O need:O to:O be:O up:O from:O Williams:B-taxi-departure Art:I-taxi-departure and:I-taxi-departure Antiques:I-taxi-departure .:O
+NONE:O Great:O ,:O thanks:O for:O your:O help:O .:O
+NONE:O That's:O all:O actually:O .:O Thanks:O and:O bye:O !:O
+find_taxi:O I:O need:O a:O taxi:O from:O Peking:B-taxi-departure restaurant:I-taxi-departure to:O my:O hotel:O .:O
+find_taxi:O I'd:O like:O to:O arrive:O by:O 20:00:B-taxi-arriveby please:O .:O
+find_taxi:O I'm:O going:O to:O huntingdon:B-taxi-destination marriott:I-taxi-destination hotel:I-taxi-destination .:O
+NONE:O Thank:O you:O for:O your:O assistance:O .:O
+NONE:O That:O will:O be:O all:O for:O now:O ,:O thank:O you:O .:O
+find_hotel:O A:O friend:O recommended:O the:O City:B-hotel-name Centre:I-hotel-name North:I-hotel-name B&B:I-hotel-name .:O Could:O you:O help:O me:O find:O it:O ?:O
+NONE:O Thank:O you:O !:O Can:O you:O book:O that:O for:O me:O ?:O
+find_hotel:O I:O need:O it:O for:O 2:O nights:O ,:O starting:O on:O Monday:O .:O
+book_hotel:O There:O will:O be:O 4:B-hotel-bookpeople of:O us:O .:O Thanks:O .:O
+NONE:O That's:O all:O .:O Thank:O you:O !:O
+find_hotel:O Hello:O ,:O I'm:O looking:O for:O information:O on:O the:O Alpha-Milton:B-hotel-name Guest:I-hotel-name House:I-hotel-name .:O
+book_hotel:O Can:O you:O make:O a:O reservation:O for:O me:O for:O 8:B-hotel-bookpeople people:O for:O 5:B-hotel-bookstay nights:O starting:O on:O Thursday:B-hotel-bookday .:O
+NONE:O Nope:O ,:O that'll:O do:O it:O !:O Thank:O you:O for:O all:O your:O help:O !:O
+NONE:O Thanks:O ,:O Have:O a:O good:O day:O .:O Goodbye:O .:O
+find_hotel:O I:O need:O an:O expensive:B-hotel-pricerange place:O to:O stay:O that:O includes:O wifi:O .:O
+find_hotel:O It:O doesn't:O really:O matter:O .:O I:O would:O like:O a:O guesthouse:B-hotel-type ,:O though:O .:O
+find_hotel:O how:O about:O moderate:B-hotel-pricerange price:O range:O ?:O
+find_hotel:O any:O place:O suits:O me:O
+book_hotel:O book:O it:O for:O 3:B-hotel-bookpeople people:O and:O 4:B-hotel-bookstay nights:O starting:O from:O wednesday:B-hotel-bookday .:O
+NONE:O Great:O ,:O thanks:O for:O your:O help:O !:O
+NONE:O No:O that:O was:O all:O for:O now:O .:O Thanks:O
+find_restaurant:O I:O need:O a:O restaurant:O .:O Something:O expensive:B-restaurant-pricerange and:O italian:B-restaurant-food .:O
+find_restaurant:O I:O would:O like:O to:O go:O to:O the:O centre:B-restaurant-area ,:O please:O .:O
+book_restaurant:O Okay:O ,:O that:O sounds:O good:O .:O I:O need:O a:O table:O for:O 7:B-restaurant-bookpeople at:O 11:30:B-restaurant-booktime on:O Thursday:B-restaurant-bookday .:O
+book_restaurant:O Okay:O ,:O will:O you:O try:O 10:30:B-restaurant-booktime instead:O ?:O
+NONE:O That's:O all:O ,:O thanks:O .:O Goodbye:O .:O
+NONE:O I:O need:O help:O booking:O a:O train:O ,:O please:O .:O I'd:O like:O to:O go:O to:O Cambridge:O on:O Monday:O .:O
+NONE:O I:O will:O be:O departing:O from:O london:O kings:O cross:O after:O 19:00:O .:O
+find_restaurant:O Yes:O ,:O can:O you:O find:O a:O close:O by:O eatery:O near:O where:O we:O arrive:O at:O ?:O
+find_restaurant:O How:O about:O the:O center:O ?:O
+NONE:O I:O need:O it:O for:O 6:O people:O .:O
+NONE:O Thank:O you:O for:O your:O help:O .:O This:O is:O all:O i:O need:O .:O
+NONE:O I:O am:O sure:O .:O I:O am:O all:O set:O .:O Thanks:O so:O much:O .:O Bye:O .:O
+find_train:O Hi:O I'm:O looking:O for:O a:O train:O that:O will:O take:O me:O to:O Cambridge:B-train-destination .:O I:O want:O to:O get:O there:O by:O 15:30:B-train-arriveby .:O
+find_train:O I:O am:O leaving:O from:O Stevenage:B-train-departure and:O I:O would:O like:O to:O travel:O on:O Monday:B-train-day .:O
+find_train:O It:O doesn't:O matter:O when:O I:O depart:O .:O I:O just:O need:O to:O arrive:O in:O Cambridge:B-train-destination by:O 15:30:B-train-arriveby .:O I:O will:O have:O 8:O people:O .:O
+book_train:O Yes:O for:O 8:B-train-bookpeople people:O and:O I:O will:O require:O a:O reference:O number:O .:O
+NONE:O That:O is:O all:O .:O Thank:O you:O very:O much:O !:O
+find_hotel:O Hello:O !:O I:O need:O a:O place:O to:O bed:O down:O for:O the:O night:O that:O offers:O free:O parking:O and:O wifi:O .:O Can:O you:O help:O me:O ?:O
+find_hotel:O I:O would:O like:O a:O moderate:B-hotel-pricerange priced:O hotel:B-hotel-type in:O any:O part:O of:O town:O please:O .:O
+find_hotel:O Yes:B-hotel-parking ,:O please:O book:O the:O Ashley:O Hotel:B-hotel-type .:O
+find_hotel:O On:O second:O thought:O ,:O I'm:O not:O ready:O to:O book:O yet:O .:O Could:O you:O give:O me:O the:O address:O and:O phone:O number:O of:O the:O Ashley:O Hotel:B-hotel-type ?:O
+NONE:O Thank:O you:O for:O your:O help:O .:O If:O I:O need:O anything:O else:O ,:O I:O will:O certainly:O call:O again:O .:O
+find_hotel:O I'm:O looking:O for:O info:O about:O 4-star:O accommodations:O ,:O somewhere:O where:O they:O don't:O nickel-and-dime:O you:O for:O services:O like:O wifi:O .:O
+find_hotel:O I:O would:O like:O one:O located:O in:O the:O east:B-hotel-area with:O a:O moderate:B-hotel-pricerange price:O range:O .:O
+find_hotel:O no:O ,:O I:O don't:O care:O about:O that:O .:O Surprise:O me:O !:O
+find_hotel:O thats:O still:O fine:O .:O book:O for:O 1:O night:O
+book_hotel:O It'll:O be:O for:O 5:B-hotel-bookstay people:O and:O 5:B-hotel-bookstay nights:O starting:O from:O wednesday:B-hotel-bookday please:O
+book_hotel:O Can:O you:O see:O if:O they:O are:O available:O for:O one:O night:O ?:O I:O will:O need:O the:O reference:O number:O if:O available:O .:O
+NONE:O No:O ,:O I:O think:O that's:O everything:O I:O need:O .:O Thank:O you:O for:O helping:O me:O .:O
+find_taxi:O Hi:O ,:O I'm:O needing:O a:O taxi:O ,:O leaving:O cafe:B-taxi-departure uno:I-taxi-departure and:O I:O need:O to:O arrive:O by:O 24:30:B-taxi-arriveby
+find_taxi:O I'm:O headed:O to:O churchill:B-taxi-destination college:I-taxi-destination
+find_taxi:O Thank:O you:O for:O your:O help:O ,:O before:O you:O go:O ,:O could:O I:O get:O the:O contact:O number:O please:O ?:O
+NONE:O Thank:O you:O .:O Bye:O
